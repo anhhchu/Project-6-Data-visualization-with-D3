@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style> /* set the CSS */
+
+body { font: 12px Arial;}
+
+path { 
+    stroke: green;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->    
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<script>
+
+
+function draw(data) {
+
+// Set the dimensions of the canvas / graph
+/*var margin ={top: 30, right: 20, bottom: 30, left: 50},
+    width = 700 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom;
+
+// Adds the svg canvas
+var svg = d3.select("body")
+    .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .attr("class","line_chart")
+    .append("g")
+        .attr("transform", 
+              "translate(" + margin.left + "," + margin.top + ")");*/
+
+          var margin = 75,
+              width = 900 - margin,
+              height = 400 - margin;
+
+
+          var svg = d3.select("body")
+              .append("svg")
+              .attr("width", width + margin)
+              .attr("height", height + margin)
+              .append('g')
+              .attr('class', 'chart');
+
+
+// Create the axis
+        var time_extent = d3.extent(data, function(d) {
+              return d['date'];
+          });
+
+        var x = d3.time.scale()
+              .range([margin, width]);
+
+        var time_scale = x.domain(time_extent);
+
+        var time_axis = d3.svg.axis()
+              .scale(time_scale)
+              .ticks(5);
+
+        var price_extent = [0, d3.max(data, function(d) { return d.close; })];
+
+        //debugger;
+
+
+        var y = d3.scale.linear()
+              .range([height, margin]);
+
+        var price_scale = y.domain(price_extent);
+
+         var price_axis = d3.svg.axis()
+              .scale(price_scale)
+              .orient("left");
+
+        
+
+          d3.select("svg")
+              .append('g')
+              .attr('class', 'x axis')
+              .attr('transform', "translate(0," + height + ")")
+              .call(time_axis);
+
+
+
+
+          d3.select("svg")
+              .append('g')
+              .attr('class', 'y axis')
+              .attr('transform', "translate(" + margin + ",0)")
+              .call(price_axis);
+
+
+
+
+/*var x = d3.time.scale().range([0, width]);
+var y = d3.scale.linear().range([height, 0]);
+
+// Define the axes
+var xAxis = d3.svg.axis().scale(x)
+    .orient("bottom").ticks(5);
+
+var yAxis = d3.svg.axis().scale(y)
+    .orient("left").ticks(5);
+
+// Add the X Axis
+svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+
+// Add the Y Axis
+svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis);*/
+
+
+// Define the line
+var stockline = d3.svg.line()
+    .x(function(d) { return x(d.date); })
+    .y(function(d) { return y(d.close); });
+
+
+/*var lineGraph = svg.append("path")
+                .attr("class","line")
+                .attr("d", stockline(data))
+                .attr("stroke","blue")
+                .attr("stroke-width",2);*/
+
+ /*data.forEach(function(d) {
+debugger;
+
+        svg.append("path")
+            .attr("class", "line")
+            .attr("d", stockline(d.close)); 
+
+    });*/
+
+    // Add the stockline path.
+    svg.append("path")
+        .attr("class", "line")
+        .attr("d", stockline(data));
+        
+
+
+
+// Add the line 
+/*data.forEach(function(d) {
+
+        svg.append("path")
+            .attr("class", "line")
+            .attr("d", stockline(d.values)); 
+
+    });*/
+
+
+// Scale the range of the data
+    //x.domain(d3.extent(data, function(d) { return d.date; }));
+    //y.domain([0, d3.max(data, function(d) { return d.price; })]); 
+
+
+    
+};   
+
+// Get the data
+var parseDate = d3.time.format("%m/%d/%Y"); 
+
+d3.csv("HistoricalQuotes.csv", function(d) {
+        d['close'] = +d['close'];
+        d['date'] = parseDate.parse(d['date']);
+        return d;
+      }, draw); 
+
+
+</script>
+</body>
