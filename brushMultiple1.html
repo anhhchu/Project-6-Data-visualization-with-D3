@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+ 
+svg {
+  font: 10px sans-serif;
+}
+ 
+ 
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2;
+  shape-rendering: crispEdges;
+}
+
+.y.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+ 
+var margin = {top: 10, right: 10, bottom: 100, left: 40},
+    margin2 = {top: 430, right: 10, bottom: 20, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom,
+    height2 = 500 - margin2.top - margin2.bottom;
+ 
+var color = d3.scale.category10();
+ 
+var parseDate = d3.time.format("%m/%d/%Y").parse;
+
+function type(d) {
+        d.date = parseDate(d.date);
+        d.close = +d.close;
+        return d;}
+ 
+var x = d3.time.scale().range([0, width]),
+    x2 = d3.time.scale().range([0, width]),
+    y = d3.scale.linear().range([height, 0]),
+    y2 = d3.scale.linear().range([height2, 0]);
+ 
+var xAxis = d3.svg.axis().scale(x).orient("bottom"),
+    xAxis2 = d3.svg.axis().scale(x2).orient("bottom"),
+    yAxis = d3.svg.axis().scale(y).orient("left");
+ 
+var brush = d3.svg.brush()
+    .x(x2)
+    .on("brush", brush);
+ 
+var line = d3.svg.line()
+    .interpolate("cubic")
+    .x(function(d) { return x(d.date); })
+    .y(function(d) { return y(d.close); });
+ 
+var line2 = d3.svg.line()
+    .interpolate("cubic")
+    .x(function(d) {return x2(d.date); })
+    .y(function(d) {return y2(d.close); });
+ 
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom);
+ 
+svg.append("defs").append("clipPath")
+    .attr("id", "clip")
+  .append("rect")
+    .attr("width", width)
+    .attr("height", height);
+ 
+var focus = svg.append("g")
+  .attr("class","focus")
+  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+      
+var context = svg.append("g")
+  .attr("class","context")
+  .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")");
+ 
+d3.csv("HistoricalQuotes_firstsolar.csv", type, drawChart);
+
+
+function drawChart(error, data) {
+ 
+
+    x.domain(d3.extent(data.map(function(d) { return d.date; })));
+    y.domain([0, d3.max(data.map(function(d) { return d.close; }))]);
+    x2.domain(x.domain());
+    y2.domain(y.domain()); 
+
+    var NestData = d3.nest()
+              .key(function (d) {return d.symbol;})
+              .entries(data);
+
+    var focuslineGroups = focus.selectAll("g")
+        .data(NestData)
+      .enter().append("g");
+      
+    var focuslines = focuslineGroups.append("path")
+        .attr("class","line")
+        .attr("d", function(d) { return line(d.values); })
+        // .style("stroke", function(d) {return color(d.name);})
+        .style("stroke", function (d) { if (d.key === "FSLR") {  //add color
+                                              d.color = "red";}
+                                          else {d.color = "green";}
+                                          return d.color;})
+        .attr("clip-path", "url(#clip)");
+    
+    focus.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+ 
+    focus.append("g")
+        .attr("class", "y axis")
+        .call(yAxis);
+        
+    var contextlineGroups = context.selectAll("g")
+        .data(NestData)
+      .enter().append("g");
+    
+    var contextLines = contextlineGroups.append("path")
+        .attr("class", "line")
+        .attr("d", function(d) { return line2(d.values); })
+        .style("stroke", function (d) { if (d.key === "FSLR") {  //add color
+                                              d.color = "red";}
+                                          else {d.color = "green";}
+                                          return d.color;})
+        .attr("clip-path", "url(#clip)");
+ 
+    context.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height2 + ")")
+        .call(xAxis2);
+ 
+    context.append("g")
+        .attr("class", "x brush")
+        .call(brush)
+      .selectAll("rect")
+        .attr("y", -6)
+        .attr("height", height2 + 7);
+        
+        
+}
+ 
+function brush() {
+  x.domain(brush.empty() ? x2.domain() : brush.extent());
+  focus.selectAll("path.line").attr("d",  function(d) {return line(d.values)});
+  focus.select(".x.axis").call(xAxis);
+}
+ 
+</script>
