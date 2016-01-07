@@ -59,9 +59,15 @@
 				height = 400;
 			var tsData = null;
 
+			//call the rangeWidget function from startEndSlider.js, specify the range area
 			var rangeWidget = d3.elts.startEndSlider().minRange(0.05*365*24*3600*1000); // 2.5 year minimum range
+
+			//call clickPanel function from clichPanel.js
 			var clickPanel = d3.elts.makeClickPanel();
+
+			//call timeSeriesChart function from timeSeriesChart.js
 			var tsChart = d3.elts.timeSeriesChart()
+									//define the format
 									.width(width)
 									.height(height)
 									.x(function(d) { return d3.time.format("%Y%m%d").parse(d[0]); })
@@ -81,6 +87,7 @@
 									.margin({top: 10, right: 20, bottom: 80, left: 40})
 			tsChart.yAxis(tsChart.yAxis().tickFormat(d3.format("$,.0f")));
 
+			//plug in data
 			d3.csv('HistoricalQuotes_solar.csv', function(data) {
 				d3.csv('solarcityNotes.csv', function(notes) {
 					tsChart.notes(notes);
