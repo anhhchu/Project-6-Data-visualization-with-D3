@@ -1,0 +1,11 @@
+rank,company,overal_rank,state,year_founded,employees,primary_service,total_megawatts_installed,total_megawatts_2014,primary_market
+1,First Solar Inc.,Tempe,Arizona,1999,6060,Developer,3881,1023,Utility
+2,Mortenson Construction,Minneapolis,Minnesota,1954,3810,EPC,1276,513,Utility
+3,SolarCity,San Mateo,California,2006,10000,Rooftop Contractor,1100,502,Residential
+4,Arraycon,Sacramento,California,2009,67,Construction Firm,642,449,Utility
+5,Helix Electric,Las Vegas,Nevada,1985,1500,EPC,1150,411,Utility
+6,Signal Energy Constructors,Chattanooga,Tennessee,2005,115,EPC,692,331,Utility
+7,Rosendin Electric,San Jose,California,1919,4500,EPC,798,319,Utility
+8,Swinerton Renewable Energy,San Francisco,California,1888,1729,EPC,657,318,Utility
+9,Amec Foster Wheeler,Atlanta,Georgia,1946,40000,EPC,595,287,Utility
+10,Cupertino Electric,San Jose,California,1954,2190,EPC,940,281,Utility

@@ -1,189 +1,231 @@
+
 <!DOCTYPE html>
-<meta charset="utf-8">
-<style> /* set the CSS */
+<html>
+	<style>
+	body {
+		font: 12px sans-serif;
+		margin: 20px;
+	}
 
-body { font: 12px Arial;}
+	h1 {
+		vertical-align: middle;
+	}
+	.axis text {
+		fill: #888;
+		font-size: 88%;
+	}
+	.click-panel {
+		position: absolute;
+		visibility: hidden;
+		background: white;
+		border: 1px solid gray;
+		padding: 10px 20px;
+		position: absolute;
+		z-index: 99;
+	}
+	.click-panel {
+		width: 280px;
+	}
+	.click-panel .close {
+		float: right;
+		font-size: 30px;
+		opacity: 0.27;
+		cursor: pointer;
+	}
+/*	.click-panel a {
+		font-size: 90%;
+		text-decoration: none;
+	}*/
+	p {
+		color: #000;
+	}
+	.byline {
+		margin:-10px 0 30px 0;
 
-path { 
-    stroke: green;
-    stroke-width: 2;
-    fill: none;
-}
+/*	.axis path,
+	.axis line {
+	  fill: none;
+	  stroke: #000;
+	  shape-rendering: crispEdges;
+	}*/
 
-.axis path,
-.axis line {
-    fill: none;
-    stroke: grey;
-    stroke-width: 1;
-    shape-rendering: crispEdges;
-}
+	#barchart.bar:hover {
+	  fill: orangered ;
+	}
 
-</style>
+	#barchart.d3-tip {
+	  line-height: 1;
+	  font-weight: bold;
+	  padding: 12px;
+	  background: rgba(0, 0, 0, 0.8);
+	  color: #fff;
+	  border-radius: 2px;
+	}
 
-<body>
+	/* Creates a small triangle extender for the tooltip */
+	.d3-tip:after {
+	  box-sizing: border-box;
+	  display: inline;
+	  font-size: 10px;
+	  width: 100%;
+	  line-height: 1;
+	  color: rgba(0, 0, 0, 0.8);
+	  content: "\25BC";
+	  position: absolute;
+	  text-align: center;
+	}
 
-<!-- load the d3.js library -->    
-<script src="http://d3js.org/d3.v3.min.js"></script>
+	/* Style northward tooltips differently */
+	#barchart.d3-tip.n:after {
+	  margin: -1px 0 0 0;
+	  top: 100%;
+	  left: 0;
+	}
+	</style>
+	<body>
+		<h1>THE STORY OF SOLARCITY</h1>
+		<p class="byline">Following charts tell story of SolarCity: the fluctuation in its stock price, business milestones, its expansion and competitor landscape</p>
 
-<script>
+		<div id="container">
+			<div id="hover"></div>
+			<h2>SolarCity's stockprice with business milestones</h2>
+			<div id="chart"></div>
+			<h2>Total 10 residental solar contractor by total megawatts installed as of 2015</h2>
+			<div id="barchart"></div>
+			<div id="barchart1"></div>
+		</div>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+		<script src="../src/timeSeriesChart.js"></script>
+		<script src="../src/startEndSlider.js"></script>
+		<script src="../src/clickPanel.js"></script>
+		<script src="../src/barChart.js"></script>
+		<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+		<script>
+		//First chart depicts stock price with note
+			var elt = d3.select("#chart");
+			var width = 720, 
+				height = 400;
+			var tsData = null;
 
+			var rangeWidget = d3.elts.startEndSlider().minRange(0.05*365*24*3600*1000); // 2.5 year minimum range
+			var clickPanel = d3.elts.makeClickPanel();
+			var tsChart = d3.elts.timeSeriesChart()
+									.width(width)
+									.height(height)
+									.x(function(d) { return d3.time.format("%Y%m%d").parse(d[0]); })
+									.xAxisText(function(textSel) {  // rotates x labels 90 degrees
+										textSel.attr("x", -50)
+											.attr("y", 0)
+											.attr("dy", ".35em")
+											.attr("transform", "rotate(-90)")
+											.style("text-anchor", "end");
+									})
+									.fillColor(["#00ff83", "#028900"])
+									.strokeColor("#317256")
+									.rangeWidget(rangeWidget)
+									.notesMarkerClick(function(elt, note, closeHandler) {
+										clickPanel(elt, note && ("<h3>"+note.title+"</h3><p>"+note.desc+"</p>"+(note.link&&"<a href='"+note.link+"' target='_blank'>Read more&hellip;</a>")), closeHandler);
+									})
+									.margin({top: 10, right: 20, bottom: 80, left: 40})
+			
+			tsChart.yAxis(tsChart.yAxis().tickFormat(d3.format("$,.0f")));
 
-function draw(data) {
+			d3.csv('HistoricalQuotes_solar.csv', function(data) {
+				d3.csv('solarcityNotes.csv', function(notes) {
+					tsChart.notes(notes);
+					tsData = _.map(data, function(d) { return [d.date, d.price] });
+					elt.datum(tsData).call(tsChart);
+				});
+			});
 
-// Set the dimensions of the canvas / graph
-/*var margin ={top: 30, right: 20, bottom: 30, left: 50},
-    width = 700 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+		//Barchart draw comparison with competitors
 
-// Adds the svg canvas
-var svg = d3.select("body")
-    .append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
-        .attr("class","line_chart")
-    .append("g")
-        .attr("transform", 
-              "translate(" + margin.left + "," + margin.top + ")");*/
+		var margin = {top: 50 , right: 20, bottom: 100, left: 40},
+		    width = 720 - margin.left - margin.right,
+		    height = 500 - margin.top - margin.bottom;
 
-          var margin = 75,
-              width = 900 - margin,
-              height = 400 - margin;
-
-
-          var svg = d3.select("body")
-              .append("svg")
-              .attr("width", width + margin)
-              .attr("height", height + margin)
-              .append('g')
-              .attr('class', 'chart');
-
-
-// Create the axis
-        var time_extent = d3.extent(data, function(d) {
-              return d['date'];
-          });
-
-        var x = d3.time.scale()
-              .range([margin, width]);
-
-        var time_scale = x.domain(time_extent);
-
-        var time_axis = d3.svg.axis()
-              .scale(time_scale)
-              .ticks(5);
-
-        var price_extent = [0, d3.max(data, function(d) { return d.close; })];
-
-        //debugger;
-
-
-        var y = d3.scale.linear()
-              .range([height, margin]);
-
-        var price_scale = y.domain(price_extent);
-
-         var price_axis = d3.svg.axis()
-              .scale(price_scale)
-              .orient("left");
-
-        
-
-          d3.select("svg")
-              .append('g')
-              .attr('class', 'x axis')
-              .attr('transform', "translate(0," + height + ")")
-              .call(time_axis);
-
-
-
-
-          d3.select("svg")
-              .append('g')
-              .attr('class', 'y axis')
-              .attr('transform', "translate(" + margin + ",0)")
-              .call(price_axis);
-
-
-
-
-/*var x = d3.time.scale().range([0, width]);
-var y = d3.scale.linear().range([height, 0]);
-
-// Define the axes
-var xAxis = d3.svg.axis().scale(x)
-    .orient("bottom").ticks(5);
-
-var yAxis = d3.svg.axis().scale(y)
-    .orient("left").ticks(5);
-
-// Add the X Axis
-svg.append("g")
-        .attr("class", "x axis")
-        .attr("transform", "translate(0," + height + ")")
-        .call(xAxis);
-
-// Add the Y Axis
-svg.append("g")
-        .attr("class", "y axis")
-        .call(yAxis);*/
-
-
-// Define the line
-var stockline = d3.svg.line()
-    .x(function(d) { return x(d.date); })
-    .y(function(d) { return y(d.close); });
-
-
-/*var lineGraph = svg.append("path")
-                .attr("class","line")
-                .attr("d", stockline(data))
-                .attr("stroke","blue")
-                .attr("stroke-width",2);*/
-
- /*data.forEach(function(d) {
-debugger;
-
-        svg.append("path")
-            .attr("class", "line")
-            .attr("d", stockline(d.close)); 
-
-    });*/
-
-    // Add the stockline path.
-    svg.append("path")
-        .attr("class", "line")
-        .attr("d", stockline(data));
-        
+		var svg = d3.select("#barchart").append("svg")
+		    .attr("width", width + margin.left + margin.right)
+		    .attr("height", height + margin.top + margin.bottom)
+		  .append("g")
+		    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");	
+ 
 
 
+		// var x = d3.scale.ordinal()
+		//     .rangeRoundBands([0, width], .1);
 
-// Add the line 
-/*data.forEach(function(d) {
+		// var y = d3.scale.linear()
+		//     .range([height, 0]);
 
-        svg.append("path")
-            .attr("class", "line")
-            .attr("d", stockline(d.values)); 
-
-    });*/
-
-
-// Scale the range of the data
-    //x.domain(d3.extent(data, function(d) { return d.date; }));
-    //y.domain([0, d3.max(data, function(d) { return d.price; })]); 
+		// var xAxis = d3.svg.axis()
+		//     .scale(x)
+		//     .orient("bottom");
 
 
-    
-};   
-
-// Get the data
-var parseDate = d3.time.format("%m/%d/%Y"); 
-
-d3.csv("HistoricalQuotes.csv", function(d) {
-        d['close'] = +d['close'];
-        d['date'] = parseDate.parse(d['date']);
-        return d;
-      }, draw); 
 
 
-</script>
-</body>
+		// var yAxis = d3.svg.axis()
+		//     .scale(y)
+		//     .orient("left")
+
+
+
+		var tip = d3.tip()
+		  .attr('class', 'd3-tip')
+		  .offset([-10, 0])
+		  .html(function(d) {
+		    return "<strong>Total Megawatts installed:</strong>  <span style='color:green'>" + d.total_megawatts_installed + "</span>" + " " +
+		    "<strong>Founded:</strong>  <span style='color:green'>" + d.year_founded + "</span>";
+		  })
+
+		svg.call(tip);
+
+
+		d3.csv("competitor.csv", type, drawBarChart);
+
+
+		// function drawBarChart(error, data) {
+		//   x.domain(data.map(function(d) { return d.company; }));
+		//   y.domain([0, d3.max(data, function(d) { return d.total_megawatts_installed; })]);
+
+		//   svg.append("g")
+		//       .attr("class", "x axis")
+		//       .attr("transform", "translate(0," + height + ")")
+		//       .call(xAxis)
+		//       .selectAll("text")  
+		//             .style("text-anchor", "end")
+		//             .attr("dx", "-.8em")
+		//             .attr("dy", ".15em")
+		//             .attr("transform", "rotate(-30)")
+		//             .style("font-weight","bold");
+
+
+		//   svg.append("g")
+		//       .attr("class", "y axis")
+		//       .call(yAxis)
+
+		//   svg.selectAll(".bar")
+		//       .data(data)
+		//     .enter().append("rect")
+		//       .attr("class", "bar")
+		//       .attr("x", function(d) { return x(d.company); })
+		//       .attr("width", x.rangeBand())
+		//       .attr("y", function(d) { return y(d.total_megawatts_installed); })
+		//       .attr("height", function(d) { return height - y(d.total_megawatts_installed); })
+		//       .style("fill", function(d) {if (d.company === "SolarCity") {return "green";}
+		//   									else {return "orange";}})
+		//       .on('mouseover', tip.show)
+		//       .on('mouseout', tip.hide)
+
+		// };
+
+		function type(d) {
+		  d.total_megawatts_installed = +d.total_megawatts_installed;
+		  return d;
+		}
+
+		</script>
+	</body>
+</html>

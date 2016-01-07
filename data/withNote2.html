@@ -2,73 +2,44 @@
 <!DOCTYPE html>
 <html>
 	<style>
-	body {
-		font-family: sans-serif;
-		margin: 20px;
-	}
-	#container {
-		width: 720px;
-		/*border: 2px solid gray;*/
-		padding-bottom: 20px;
-		position: relative;
-	}
-	#chart {
-		height: 400px;
-	}
+
 	.axis text {
 		fill: #888;
 		font-size: 88%;
 	}
-	.click-panel {
-		position: absolute;
-		visibility: hidden;
-		background: white;
-		border: 1px solid gray;
-		padding: 10px 20px;
-		position: absolute;
-		z-index: 99;
-	}
-	.click-panel {
-		width: 280px;
-	}
-	.click-panel .close {
-		float: right;
-		font-size: 30px;
-		opacity: 0.27;
-		cursor: pointer;
-	}
-	.click-panel a {
-		font-size: 90%;
-		text-decoration: none;
-	}
+	
 	p {
-		color: #777;
+		color: #000;
 	}
 	.byline {
 		margin:-10px 0 30px 0;
+
+
 	}
 	</style>
 	<body>
-		<h1>Sample Time Series with Notes &amp; Range Slider</h1>
-		<p class="byline">Price of wheat, USD per bushel (CBOT Wheat Futures)</p>
+		
+
 		<div id="container">
 			<div id="hover"></div>
+			
 			<div id="chart"></div>
 		</div>
-		<p style="font-size:90%">Available as part of the <a target="_blank" href="https://bitbucket.org/artstr/d3elements.git">d3 elements</a> package</p>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
-		<script src="../src/timeSeriesChart.js"></script>
-		<script src="../src/startEndSlider.js"></script>
-		<script src="../src/clickPanel.js"></script>
+		<script src="../data/src/timeSeriesChart.js"></script>
+		<script src="../data/src/startEndSlider.js"></script>
+		
+		<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 		<script>
+		//First chart depicts stock price with note
 			var elt = d3.select("#chart");
-			var width = 720, 
+			var width = 750, 
 				height = 400;
 			var tsData = null;
 
 			var rangeWidget = d3.elts.startEndSlider().minRange(0.05*365*24*3600*1000); // 2.5 year minimum range
-			var clickPanel = d3.elts.makeClickPanel();
+			
 			var tsChart = d3.elts.timeSeriesChart()
 									.width(width)
 									.height(height)
@@ -83,19 +54,17 @@
 									.fillColor(["#00ff83", "#028900"])
 									.strokeColor("#317256")
 									.rangeWidget(rangeWidget)
-									.notesMarkerClick(function(elt, note, closeHandler) {
-										clickPanel(elt, note && ("<h3>"+note.title+"</h3><p>"+note.desc+"</p>"+(note.link&&"<a href='"+note.link+"' target='_blank'>Read more&hellip;</a>")), closeHandler);
-									})
+									
 									.margin({top: 10, right: 20, bottom: 80, left: 40})
 			tsChart.yAxis(tsChart.yAxis().tickFormat(d3.format("$,.0f")));
 
 			d3.csv('HistoricalQuotes_solar.csv', function(data) {
-				d3.csv('solarcityNotes.csv', function(notes) {
-					tsChart.notes(notes);
 					tsData = _.map(data, function(d) { return [d.date, d.price] });
 					elt.datum(tsData).call(tsChart);
-				});
+				
 			});
+
+	
 
 		</script>
 	</body>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font: 12px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: orange;
+}
+
+.bar:hover {
+  fill: orangered ;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+label {
+  position: absolute;
+  text-align: center;
+}
+</style>
+<body>
+
+<label><input type="checkbox">Sort values</label>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script>
+
+var margin = {top: 60, right: 20, bottom: 50, left: 40},
+    width = 750 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+// var formatPercent = d3.format(".0%");
+
+var x = d3.scale.ordinal()
+    .rangeRoundBands([0, width], .1);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<strong>Total MW installed:</strong>  <span style='color:green'>" + d.total_megawatts_installed + "</span><br>" +
+    "<strong>Founded:</strong>  <span style='color:green'>" + d.year_founded + "</span><br>" +
+    "<strong>Primary Market:</strong>  <span style='color:green'>" + d.primary_market + "</span>";
+  })
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+svg.call(tip);
+
+d3.csv("competitor1.csv", type, function(error, data) {
+  x.domain(data.map(function(d) { return d.company; }));
+  y.domain([0, d3.max(data, function(d) { return d.total_megawatts_installed; })]);
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+      .selectAll("text")  
+        .call(wrap, x.rangeBand());
+
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+
+
+  svg.selectAll(".bar")
+      .data(data)
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) { return x(d.company); })
+      .attr("width", x.rangeBand())
+      .attr("y", function(d) { return y(d.total_megawatts_installed); })
+      .attr("height", function(d) { return height - y(d.total_megawatts_installed); })
+      .style("fill", function(d) {if (d.company === "SolarCity") {return "green";}})
+      .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+
+  d3.select("input").on("change", change);
+
+  // var sortTimeout = setTimeout(function() {
+  //   d3.select("input").property("checked", true).each(change);
+  // }, 2000);
+
+  function change() {
+    // clearTimeout(sortTimeout);
+
+    // Copy-on-write since tweens are evaluated after a delay.
+    var x0 = x.domain(data.sort(this.checked
+        ? function(a, b) { return b.total_megawatts_installed - a.total_megawatts_installed; }
+        : function(a, b) { return d3.ascending(a.total_megawatts_installed, b.total_megawatts_installed); })
+        .map(function(d) { return d.company; }))
+        .copy();
+
+    svg.selectAll(".bar")
+        .sort(function(a, b) { return x0(a.total_megawatts_installed) - x0(b.total_megawatts_installed); });
+
+    var transition = svg.transition().duration(750),
+        delay = function(d, i) { return i * 50; };
+
+    transition.selectAll(".bar")
+        .delay(delay)
+        .attr("x", function(d) { return x0(d.company); });
+
+    transition.select(".x.axis")
+        .call(xAxis)
+        .selectAll("text")  
+        .call(wrap, x.rangeBand())
+      .selectAll("g")
+        .delay(delay);
+  }
+
+});
+
+function wrap(text, width) {
+  text.each(function() {
+    var text = d3.select(this),
+        words = text.text().split(/\s+/).reverse(),
+        word,
+        line = [],
+        lineNumber = 0,
+        lineHeight = 1.1, // ems
+        y = text.attr("y"),
+        dy = parseFloat(text.attr("dy")),
+        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+    while (word = words.pop()) {
+      line.push(word);
+      tspan.text(line.join(" "));
+      if (tspan.node().getComputedTextLength() > width) {
+        line.pop();
+        tspan.text(line.join(" "));
+        line = [word];
+        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+      }
+    }
+  });
+}
+
+function type(d) {
+  d.total_megawatts_installed = +d.total_megawatts_installed;
+  return d;
+}
+
+</script>

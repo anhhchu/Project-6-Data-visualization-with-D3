@@ -49,7 +49,7 @@ var d3 = (function (d3, _) {
 			fillColor = ["lightgray", "gray"],  // uses a gradient
 			strokeWidth = 1,
 			rangeWidget = null,
-			maxNotes = 10,
+			maxNotes = 20,
 			notes = null, // eg. an array of objects {startDate: x1, endDate: x2, priority: 1, ... } 
 			              // (only startDate and endDate, in the same format as the dates in the main data, are required by this code)
 			notesMarkerAttr = {r: 10, stroke: 'white', 'stroke-width': 1}, // a dict of attributes to apply to the notes markers
@@ -245,7 +245,7 @@ var d3 = (function (d3, _) {
 			gNotes.enter()
 				.append("circle")
 				.attr("class", "note")
-				.attr("r", 0)
+				.attr("r", 2)
 				.style("opacity", 1e-6)
 				.attr("fill", strokeColor)
 				.attr("cy", function(d) {return yScale(d.startY)})
