@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body {
+	width: 900px;
+	margin: 0 auto;
+}
+
+h2 {
+	text-align: left;
+}
+
+.caption{
+	font-style: italic;
+	text-align: center;
+}
+
+.subtitle{
+	font-style: italic;
+	text-align:center;
+}
+
+.Chart {
+	display: block;
+	margin: 0 auto;
+	/*height: 500px;*/
+	width: 850px;
+}
+
+.text {
+	text-indent: 15px;
+	font: 15px sans-serif;
+	text-align:justify;
+	line-height: 150%;
+}
+
+</style>
+<html>
+	<header>
+		<h1 align="center">THE STORY OF SOLARCITY</h1>
+			<p class="subtitle" >Following charts tell story of SolarCity: the fluctuation in its stock price, business milestones and industry landscape</p>
+	
+	</header>	
+	<body>
+		
+		<div>
+		<h2>The company's overview</h2>
+			<p class = "text">SolarCity was founded in July 2006 by brothers Peter and Lyndon Rive, based on a suggestion for a solar company concept by their cousin, <a href ="https://en.wikipedia.org/wiki/Elon_Musk">Elon Musk</a>, who is the chairman of the company and also the CEO of TESLA.SolarCity is America's largest residential solar power provider with over 13000 employess, operating in 19 states with 75 operation centers. Since 2008, the company has received financing from Morgan Stanley, USbancorp, PG&E Corporation, Citi Bank and Google. SolarCity's customers include tens of thousands of homeowners, more than 400 schools including Stanford University, government agencies such as the U.S. Armed Forces and Department of Homeland Security, and well-known corporate clients, including eBay, HP, Intel, Walgreens and Walmart.</p>
+			<p class ="text">The chart below highlights SolarCity business milestones and several events affecting the company's stock price since its IPO on December 13th, 2012.</p>
+			<p class = "caption">SolarCity's stockprice with business milestones</p>
+			<iframe src="../data/withNote/withNoteFinal.html" id="LineChart" scrolling="yes" class="Chart" frameborder="0" height="480px"></iframe>
+		<div>
+
+		<h2>The industry landscape</h2>
+			<p class = "text">As of 2015, SolarCity has installed 1100 MW, 502 MW was installed in 2014 alone; which makes it the largest residential solar contractor in the USA. The achievement also helps the company rank third in term of solar installation in 2004 and forth in term on total MW installation competing with other utility contractors such as First Solar or Mortenson Construction.</p>
+
+			<p class = "caption">Top 10 solar residential contractors<br>(Source: solarpowerworldonline.com)</p>
+			<iframe src="../data/barChart/barChartFinal.html" id="BarChart" scrolling="yes" class="Chart" frameborder="0" height="550px"></iframe>
+			
+			<p class = "caption">Top 10 North American solar contractors<br>(Source: solarpowerworldonline.com)</p>
+			<iframe src="../data/barChart/barChartUtilityFinal.html" id="BarChart1" scrolling="yes" class="Chart" frameborder="0" height="550px"></iframe>
+
+			<p class = "text">The time-series chart below shows SolarCity stock price in tandem with First Solar's. Although it's not necessarily useful to compare two stocks without considering the trading volume, the fluctuation in First Solar Stock shows intesting events in the solar industry.</p> 
+			<p class = "text">First Solar is one of the biggest and long-established competitor of SolarCity. Founded in 1999, First Solar Inc. (NASDAQ: FSLR) leads the US's solar power industry in both solar cell and solar panel production. The company launched its initial public offering on November 17, 2006. From its starting price of $20, the share price broke $300 in April 2008, and for years the price bounced between the $100 and $200 range. Solar was a promising industry during the year of solar hype in 2008 - 2009, and First Solar was a frontrunner. However, The drop in solar panel prices rocked the industry in 2011. Between January and December 2011, the share price plummeted more than 70%. The solar industry that had been so successful and highly watched for years had been something of a bubble. Panel makers were producing in high quantities, but soon that supply outpaced demand.Panel prices fell as panel makers tried to sell the now-oversupplied panels. Meanwhile, Chinese companies were selling their even lower-priced panels in the U.S. and European markets, where domestic companies struggled to compete. Many solar companies went bankrupt. Others struggled with losses, oversupply, and low prices. And makers of polysilicon panels were hit the worst. Though First Solar’s panels weren’t quite as efficient, they were cheaper to produce. And that kept the company going. - See more at: <a href="https://www.energyandcapital.com/resources/first-solar-inc-nasdaq-fslr/64">energyandcapital.com</a></p>
+			<p class = "text">SolarCity went into the solar industry picture in 2006 with a disruptive business model. The company buys, installs, owns and maintains photovoltaic panels on the roofs of its clients—homeowners, schools and commercial enterprises. SolarCity makes money by selling the electricity that’s generated from those panels, although it charges clients a rate lower than mainstream utility companies. The company did not manufacture the solar panels, so it was immune from the falling panel prices, and actually benefitted from that. SolarCity pioneered solar leasing and the option of panel installation with no upfront cost. With consumers avoiding maintenance and depreciating equipment (panels cost 70 percent less than they did in 2008), “the choice became paying more for dirty energy or less for clean”. With the success of its business model, since its IPO, the company's stock price has moved in the similar price range as its predecessor. - See more at: <a href="http://www.success.com/article/four-market-disruptors">success.com</a></p>
+			
+
+			<p class = "caption">Stockprice of FirstSolar and SolarCity</p>
+			<iframe src="../data/firstSolar/stockChart3.html"  id="StockChart" scrolling="yes" class="Chart" frameborder="0" height="550px"></iframe>
+			
+		</div>
+
+		<h2>REFERENCE</h2>
+		<p font-style="bold">This project reuses and modifies codes in the following sources:
+		<br><a href="http://racingtadpole.com/blog/d3-time-series-chart-zoom-notes/">D3 Time Series Chart with Zoom and Note</a>
+		<br><a href="http://bl.ocks.org/mbostock/3885705">Sortable Bar Chart</a>
+		<br><a href="http://bl.ocks.org/natemiller/7dec148bb6aab897e561">Multiple Line Climate Plot with Zoom</a>
+		<br><a href="http://bl.ocks.org/mbostock/1667367">Focus+Context via Brushing</a>
+		<br><a href="http://bl.ocks.org/Caged/6476579">Using d3-tip to add tooltips to a d3 bar chart</a>
+		<br><a href="http://bl.ocks.org/gniemetz/4618602">Mousemove and brush</a></p>
+
+		<p font-style="bold">This project refers to information in the following sources:
+		<br><a href="http://www.nasdaq.com/symbol/scty/historical">NASDAG.com</a>
+		<br><a href="https://en.wikipedia.org/wiki/SolarCity">wikipedia.com</a>
+		<br><a href="http://www.solarpowerworldonline.com/2015-top-500-north-american-solar-contractors/">2015 Top 500 North American Solar Contractors</a>
+		<br><a href="https://www.energyandcapital.com/resources/first-solar-inc-nasdaq-fslr/64">First Solar, Inc. (NASDAQ: FSLR)</a>
+		<br><a href="http://www.success.com/article/four-market-disruptors">Four Market Disruptors</a>
+		<br><a href="http://www.solarcity.com/">SolarCity.com</a></p>
+
+	</body>
+
+</html>

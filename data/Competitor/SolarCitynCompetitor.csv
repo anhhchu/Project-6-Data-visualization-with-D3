@@ -1,0 +1,939 @@
+Year,Month/2015,State,Utility Number,Utility Name,Data Status,Residential,Commercial,Industrial,Transportation,Total_Capacity_MW
+2015,1,AZ,57313,SolarCity Corporation,Preliminary,117.267,40.231,0.000,0.000,157.498
+2015,1,AZ,59139,SunEdison LLC,Preliminary,0,19.448,0,0,19.448
+2015,1,AZ,59579,Sunnova,Preliminary,4.862,0,0,0,4.862
+2015,1,AZ,59580,"SunPower Capital, LLC",Preliminary,35.092,0,0,0,35.092
+2015,1,AZ,59624,"Vivint Solar, Inc.",Preliminary,1.840,0.000,0.000,0.000,1.840
+2015,1,AZ,59647,Sunrun Inc.,Preliminary,6.353,0,0,0,6.353
+2015,1,CA,57313,SolarCity Corporation,Preliminary,255.934,80.488,0.000,0.000,336.422
+2015,1,CA,59139,SunEdison LLC,Preliminary,0,72.037,0,0,72.037
+2015,1,CA,59557,RGS Energy,Preliminary,0.215,0,0,0,0.215
+2015,1,CA,59579,Sunnova,Preliminary,15.504,0,0,0,15.504
+2015,1,CA,59580,"SunPower Capital, LLC",Preliminary,109.017,0,0,0,109.017
+2015,1,CA,59624,"Vivint Solar, Inc.",Preliminary,75.499,0.000,0.000,0.000,75.499
+2015,1,CA,59647,Sunrun Inc.,Preliminary,154.803,0,0,0,154.803
+2015,1,CO,57313,SolarCity Corporation,Preliminary,40.634,9.261,0.000,0.000,49.895
+2015,1,CO,59139,SunEdison LLC,Preliminary,0,9.183,0.102,0,9.285
+2015,1,CO,59579,Sunnova,Preliminary,0.102,0,0,0,0.102
+2015,1,CO,59580,"SunPower Capital, LLC",Preliminary,7.779,0,0,0,7.779
+2015,1,CO,59647,Sunrun Inc.,Preliminary,7.280,0,0,0,7.280
+2015,1,CT,57313,SolarCity Corporation,Preliminary,10.779,4.669,0.000,0.000,15.448
+2015,1,CT,59139,SunEdison LLC,Preliminary,0,3.866,0,0,3.866
+2015,1,CT,59579,Sunnova,Preliminary,0.246,0,0,0,0.246
+2015,1,CT,59647,Sunrun Inc.,Preliminary,1.478,0,0,0,1.478
+2015,1,DC,57313,SolarCity Corporation,Preliminary,0.599,0.000,0.000,0.000,0.599
+2015,1,DC,59647,Sunrun Inc.,Preliminary,0.029,0,0,0,0.029
+2015,1,DE,57313,SolarCity Corporation,Preliminary,2.097,0.413,0.000,0.000,2.510
+2015,1,DE,59647,Sunrun Inc.,Preliminary,0.959,0,0,0,0.959
+2015,1,FL,57313,SolarCity Corporation,Preliminary,1.197,0.000,0.000,0.000,1.197
+2015,1,FL,59139,SunEdison LLC,Preliminary,0,1.516,0,0,1.516
+2015,1,GA,59139,SunEdison LLC,Preliminary,0,5.230,0,0,5.230
+2015,1,GU,59579,Sunnova,Preliminary,0.306,0,0,0,0.306
+2015,1,HI,57313,SolarCity Corporation,Preliminary,9.731,15.609,0.000,0.000,25.340
+2015,1,HI,59139,SunEdison LLC,Preliminary,0,8.102,0,0,8.102
+2015,1,HI,59579,Sunnova,Preliminary,0.502,0,0,0,0.502
+2015,1,HI,59580,"SunPower Capital, LLC",Preliminary,3.064,0,0,0,3.064
+2015,1,HI,59624,"Vivint Solar, Inc.",Preliminary,19.396,0.000,0.000,0.000,19.396
+2015,1,HI,59647,Sunrun Inc.,Preliminary,10.735,0,0,0,10.735
+2015,1,IN,59579,Sunnova,Preliminary,0.020,0,0,0,0.020
+2015,1,LA,59579,Sunnova,Preliminary,0.120,0,0,0,0.120
+2015,1,MA,57313,SolarCity Corporation,Preliminary,20.701,2.632,0.000,0.000,23.333
+2015,1,MA,59139,SunEdison LLC,Preliminary,0,13.589,0,0,13.589
+2015,1,MA,59579,Sunnova,Preliminary,0.514,0,0,0,0.514
+2015,1,MA,59580,"SunPower Capital, LLC",Preliminary,1.956,0,0,0,1.956
+2015,1,MA,59624,"Vivint Solar, Inc.",Preliminary,20.071,0.000,0.000,0.000,20.071
+2015,1,MA,59647,Sunrun Inc.,Preliminary,14.593,0,0,0,14.593
+2015,1,MD,57313,SolarCity Corporation,Preliminary,25.690,5.903,0.000,0.000,31.593
+2015,1,MD,59139,SunEdison LLC,Preliminary,0,8.387,0,0,8.387
+2015,1,MD,59579,Sunnova,Preliminary,0.050,0,0,0,0.050
+2015,1,MD,59624,"Vivint Solar, Inc.",Preliminary,17.780,0.000,0.000,0.000,17.780
+2015,1,MD,59647,Sunrun Inc.,Preliminary,0.768,0,0,0,0.768
+2015,1,ME,57313,SolarCity Corporation,Preliminary,0.000,1.015,0.000,0.000,1.015
+2015,1,MO,59579,Sunnova,Preliminary,0.015,0,0,0,0.015
+2015,1,NJ,57313,SolarCity Corporation,Preliminary,17.853,0.447,0.000,0.000,18.300
+2015,1,NJ,59139,SunEdison LLC,Preliminary,0,55.438,1.380,0,56.818
+2015,1,NJ,59579,Sunnova,Preliminary,7.879,0,0,0,7.879
+2015,1,NJ,59580,"SunPower Capital, LLC",Preliminary,7.133,0,0,0,7.133
+2015,1,NJ,59624,"Vivint Solar, Inc.",Preliminary,17.052,0.000,0.000,0.000,17.052
+2015,1,NJ,59647,Sunrun Inc.,Preliminary,16.176,0,0,0,16.176
+2015,1,NM,57313,SolarCity Corporation,Preliminary,0.015,3.113,0.000,0.000,3.128
+2015,1,NM,59579,Sunnova,Preliminary,0.435,0,0,0,0.435
+2015,1,NV,57313,SolarCity Corporation,Preliminary,4.334,0.336,0.000,0.000,4.670
+2015,1,NV,59139,SunEdison LLC,Preliminary,0,1.165,0,0,1.165
+2015,1,NV,59579,Sunnova,Preliminary,1.721,0,0,0,1.721
+2015,1,NV,59647,Sunrun Inc.,Preliminary,0.770,0,0,0,0.770
+2015,1,NY,57313,SolarCity Corporation,Preliminary,25.433,1.808,0.000,0.000,27.241
+2015,1,NY,59139,SunEdison LLC,Preliminary,0,5.929,0,0,5.929
+2015,1,NY,59579,Sunnova,Preliminary,0.273,0,0,0,0.273
+2015,1,NY,59624,"Vivint Solar, Inc.",Preliminary,17.815,0.000,0.000,0.000,17.815
+2015,1,NY,59647,Sunrun Inc.,Preliminary,14.588,0,0,0,14.588
+2015,1,OH,57313,SolarCity Corporation,Preliminary,0.000,5.015,0.000,0.000,5.015
+2015,1,OR,57313,SolarCity Corporation,Preliminary,12.228,7.383,0.000,0.000,19.611
+2015,1,OR,59139,SunEdison LLC,Preliminary,0,2.248,0,0,2.248
+2015,1,PA,57313,SolarCity Corporation,Preliminary,0.592,0.081,0.000,0.000,0.673
+2015,1,PA,59139,SunEdison LLC,Preliminary,0,8.772,0,0,8.772
+2015,1,PA,59579,Sunnova,Preliminary,0.018,0,0,0,0.018
+2015,1,PA,59580,"SunPower Capital, LLC",Preliminary,0.638,0,0,0,0.638
+2015,1,PA,59647,Sunrun Inc.,Preliminary,0.583,0,0,0,0.583
+2015,1,PR,57313,SolarCity Corporation,Preliminary,0.000,0.645,0.000,0.000,0.645
+2015,1,PR,59139,SunEdison LLC,Preliminary,0,5.627,0,0,5.627
+2015,1,PR,59579,Sunnova,Preliminary,1.954,0,0,0,1.954
+2015,1,TX,57313,SolarCity Corporation,Preliminary,6.665,11.262,0.000,0.000,17.927
+2015,1,TX,59139,SunEdison LLC,Preliminary,0,0.677,0,0,0.677
+2015,1,TX,59579,Sunnova,Preliminary,0.074,0,0,0,0.074
+2015,1,VT,59580,"SunPower Capital, LLC",Preliminary,2.227,0,0,0,2.227
+2015,1,WA,57313,SolarCity Corporation,Preliminary,0.519,0.000,0.000,0.000,0.519
+2015,1,WI,59139,SunEdison LLC,Preliminary,0,0.477,0,0,0.477
+2015,2,AZ,57313,SolarCity Corporation,Preliminary,122.696,40.231,0.000,0.000,162.930
+2015,2,AZ,59139,SunEdison LLC,Preliminary,0,19.448,0,0,19.448
+2015,2,AZ,59579,Sunnova,Preliminary,5.121,0,0,0,5.121
+2015,2,AZ,59580,"SunPower Capital, LLC",Preliminary,35.937,0,0,0,35.937
+2015,2,AZ,59624,"Vivint Solar, Inc.",Preliminary,2.568,0.000,0.000,0.000,2.568
+2015,2,AZ,59647,Sunrun Inc.,Preliminary,7.069,0,0,0,7.069
+2015,2,CA,57313,SolarCity Corporation,Preliminary,267.894,80.832,0.000,0.000,348.720
+2015,2,CA,59139,SunEdison LLC,Preliminary,0,72.037,0,0,72.037
+2015,2,CA,59557,RGS Energy,Preliminary,0.275,0,0,0,0.275
+2015,2,CA,59579,Sunnova,Preliminary,17.626,0,0,0,17.626
+2015,2,CA,59580,"SunPower Capital, LLC",Preliminary,111.991,0,0,0,111.991
+2015,2,CA,59624,"Vivint Solar, Inc.",Preliminary,80.929,0.000,0.000,0.000,80.929
+2015,2,CA,59647,Sunrun Inc.,Preliminary,160.441,0,0,0,160.441
+2015,2,CO,57313,SolarCity Corporation,Preliminary,41.858,9.261,0.000,0.000,51.120
+2015,2,CO,59139,SunEdison LLC,Preliminary,0,9.183,0.102,0,9.285
+2015,2,CO,59579,Sunnova,Preliminary,0.102,0,0,0,0.102
+2015,2,CO,59580,"SunPower Capital, LLC",Preliminary,7.779,0,0,0,7.779
+2015,2,CO,59647,Sunrun Inc.,Preliminary,7.310,0,0,0,7.310
+2015,2,CT,57313,SolarCity Corporation,Preliminary,11.531,4.669,0.000,0.000,16.200
+2015,2,CT,59139,SunEdison LLC,Preliminary,0,3.866,0,0,3.866
+2015,2,CT,59579,Sunnova,Preliminary,0.339,0,0,0,0.339
+2015,2,CT,59647,Sunrun Inc.,Preliminary,1.621,0,0,0,1.621
+2015,2,DC,57313,SolarCity Corporation,Preliminary,0.628,0.000,0.000,0.000,0.630
+2015,2,DC,59647,Sunrun Inc.,Preliminary,0.298,0,0,0,0.298
+2015,2,DE,57313,SolarCity Corporation,Preliminary,2.277,0.413,0.000,0.000,2.690
+2015,2,DE,59647,Sunrun Inc.,Preliminary,0.979,0,0,0,0.979
+2015,2,FL,57313,SolarCity Corporation,Preliminary,1.290,0.000,0.000,0.000,1.290
+2015,2,FL,59139,SunEdison LLC,Preliminary,0,1.516,0,0,1.516
+2015,2,GA,59139,SunEdison LLC,Preliminary,0,6.227,0,0,6.227
+2015,2,GU,59579,Sunnova,Preliminary,0.569,0,0,0,0.569
+2015,2,HI,57313,SolarCity Corporation,Preliminary,9.880,15.609,0.000,0.000,25.490
+2015,2,HI,59139,SunEdison LLC,Preliminary,0,2.957,0,0,2.957
+2015,2,HI,59579,Sunnova,Preliminary,0.583,0,0,0,0.583
+2015,2,HI,59580,"SunPower Capital, LLC",Preliminary,3.152,0,0,0,3.152
+2015,2,HI,59624,"Vivint Solar, Inc.",Preliminary,20.120,0.000,0.000,0.000,20.120
+2015,2,HI,59647,Sunrun Inc.,Preliminary,11.285,0,0,0,11.285
+2015,2,IN,59579,Sunnova,Preliminary,0.020,0,0,0,0.020
+2015,2,LA,59579,Sunnova,Preliminary,0.133,0,0,0,0.133
+2015,2,MA,57313,SolarCity Corporation,Preliminary,22.832,2.632,0.000,0.000,25.460
+2015,2,MA,59139,SunEdison LLC,Preliminary,0,13.589,0,0,13.589
+2015,2,MA,59579,Sunnova,Preliminary,0.624,0,0,0,0.624
+2015,2,MA,59580,"SunPower Capital, LLC",Preliminary,1.956,0,0,0,1.956
+2015,2,MA,59624,"Vivint Solar, Inc.",Preliminary,21.682,0.000,0.000,0.000,21.682
+2015,2,MA,59647,Sunrun Inc.,Preliminary,14.996,0,0,0,14.996
+2015,2,MD,57313,SolarCity Corporation,Preliminary,27.529,5.903,0.000,0.000,33.430
+2015,2,MD,59139,SunEdison LLC,Preliminary,0,8.102,0,0,8.102
+2015,2,MD,59579,Sunnova,Preliminary,0.050,0,0,0,0.050
+2015,2,MD,59624,"Vivint Solar, Inc.",Preliminary,19.998,0.000,0.000,0.000,19.998
+2015,2,MD,59647,Sunrun Inc.,Preliminary,0.788,0,0,0,0.788
+2015,2,ME,57313,SolarCity Corporation,Preliminary,0.000,1.015,0.000,0.000,1.020
+2015,2,MO,59579,Sunnova,Preliminary,0.015,0,0,0,0.015
+2015,2,NJ,57313,SolarCity Corporation,Preliminary,18.736,0.447,0.000,0.000,19.190
+2015,2,NJ,59139,SunEdison LLC,Preliminary,0,55.438,1.380,0,56.818
+2015,2,NJ,59579,Sunnova,Preliminary,9.174,0,0,0,9.174
+2015,2,NJ,59580,"SunPower Capital, LLC",Preliminary,7.142,0,0,0,7.142
+2015,2,NJ,59624,"Vivint Solar, Inc.",Preliminary,18.520,0.000,0.000,0.000,18.520
+2015,2,NJ,59647,Sunrun Inc.,Preliminary,16.406,0,0,0,16.406
+2015,2,NM,57313,SolarCity Corporation,Preliminary,0.015,3.113,0.000,0.000,3.120
+2015,2,NM,59579,Sunnova,Preliminary,0.462,0,0,0,0.462
+2015,2,NV,57313,SolarCity Corporation,Preliminary,7.132,0.336,0.000,0.000,7.470
+2015,2,NV,59139,SunEdison LLC,Preliminary,0,1.165,0,0,1.165
+2015,2,NV,59579,Sunnova,Preliminary,2.160,0,0,0,2.160
+2015,2,NV,59647,Sunrun Inc.,Preliminary,0.337,0,0,0,0.337
+2015,2,NY,57313,SolarCity Corporation,Preliminary,28.200,1.808,0.000,0.000,30.010
+2015,2,NY,59139,SunEdison LLC,Preliminary,0,5.929,0,0,5.929
+2015,2,NY,59579,Sunnova,Preliminary,0.362,0,0,0,0.362
+2015,2,NY,59580,"SunPower Capital, LLC",Preliminary,13.773,0,0,0,13.773
+2015,2,NY,59624,"Vivint Solar, Inc.",Preliminary,19.452,0.000,0.000,0.000,19.452
+2015,2,NY,59647,Sunrun Inc.,Preliminary,15.119,0,0,0,15.119
+2015,2,OH,57313,SolarCity Corporation,Preliminary,0.000,5.015,0.000,0.000,5.020
+2015,2,OR,57313,SolarCity Corporation,Preliminary,12.642,7.383,0.000,0.000,20.020
+2015,2,OR,59139,SunEdison LLC,Preliminary,0,2.248,0,0,2.248
+2015,2,PA,57313,SolarCity Corporation,Preliminary,0.592,0.081,0.000,0.000,0.670
+2015,2,PA,59139,SunEdison LLC,Preliminary,0,8.772,0,0,8.772
+2015,2,PA,59579,Sunnova,Preliminary,0.018,0,0,0,0.018
+2015,2,PA,59580,"SunPower Capital, LLC",Preliminary,0.638,0,0,0,0.638
+2015,2,PA,59647,Sunrun Inc.,Preliminary,0.584,0,0,0,0.584
+2015,2,PR,57313,SolarCity Corporation,Preliminary,0.000,0.645,0.000,0.000,0.650
+2015,2,PR,59139,SunEdison LLC,Preliminary,0,5.627,0,0,5.627
+2015,2,PR,59579,Sunnova,Preliminary,2.871,0,0,0,2.871
+2015,2,TX,57313,SolarCity Corporation,Preliminary,6.692,11.262,0.000,0.000,17.950
+2015,2,TX,59139,SunEdison LLC,Preliminary,0,0.677,0,0,0.677
+2015,2,TX,59579,Sunnova,Preliminary,0.088,0,0,0,0.088
+2015,2,VT,59580,"SunPower Capital, LLC",Preliminary,2.227,0,0,0,2.227
+2015,2,WA,57313,SolarCity Corporation,Preliminary,0.519,0.000,0.000,0.000,0.520
+2015,2,WI,59139,SunEdison LLC,Preliminary,0,0.477,0,0,0.477
+2015,3,AZ,57313,SolarCity Corporation,Preliminary,127.262,40.540,0.000,0.000,167.800
+2015,3,AZ,59139,SunEdison LLC,Preliminary,0,19.448,0,0,19.448
+2015,3,AZ,59579,Sunnova,Preliminary,5.298,0,0,0,5.298
+2015,3,AZ,59580,"SunPower Capital, LLC",Preliminary,37.678,0,0,0,37.678
+2015,3,AZ,59624,"Vivint Solar, Inc.",Preliminary,3.388,0.000,0.000,0.000,3.388
+2015,3,AZ,59647,Sunrun Inc.,Preliminary,7.686,0,0,0,7.686
+2015,3,CA,57313,SolarCity Corporation,Preliminary,281.153,83.668,0.000,0.000,364.820
+2015,3,CA,59139,SunEdison LLC,Preliminary,0,72.037,0,0,72.037
+2015,3,CA,59557,RGS Energy,Preliminary,0.293,0,0,0,0.293
+2015,3,CA,59579,Sunnova,Preliminary,13.317,0,0,0,13.317
+2015,3,CA,59580,"SunPower Capital, LLC",Preliminary,118.087,0,0,0,118.087
+2015,3,CA,59624,"Vivint Solar, Inc.",Preliminary,87.258,0.000,0.000,0.000,87.258
+2015,3,CA,59647,Sunrun Inc.,Preliminary,167.392,0,0,0,167.392
+2015,3,CO,57313,SolarCity Corporation,Preliminary,43.386,9.261,0.000,0.000,52.650
+2015,3,CO,59139,SunEdison LLC,Preliminary,0,9.183,0.102,0,9.285
+2015,3,CO,59579,Sunnova,Preliminary,0.102,0,0,0,0.102
+2015,3,CO,59580,"SunPower Capital, LLC",Preliminary,7.779,0,0,0,7.779
+2015,3,CO,59647,Sunrun Inc.,Preliminary,7.344,0,0,0,7.344
+2015,3,CT,57313,SolarCity Corporation,Preliminary,12.860,4.669,0.000,0.000,17.530
+2015,3,CT,59139,SunEdison LLC,Preliminary,0,3.866,0,0,3.866
+2015,3,CT,59579,Sunnova,Preliminary,0.584,0,0,0,0.584
+2015,3,CT,59647,Sunrun Inc.,Preliminary,1.813,0,0,0,1.813
+2015,3,DC,57313,SolarCity Corporation,Preliminary,0.650,0.000,0.000,0.000,0.650
+2015,3,DC,59647,Sunrun Inc.,Preliminary,0.030,0,0,0,0.030
+2015,3,DE,57313,SolarCity Corporation,Preliminary,2.460,0.413,0.000,0.000,2.870
+2015,3,DE,59647,Sunrun Inc.,Preliminary,1.198,0,0,0,1.198
+2015,3,FL,57313,SolarCity Corporation,Preliminary,1.335,0.000,0.000,0.000,1.330
+2015,3,FL,59139,SunEdison LLC,Preliminary,0,1.516,0,0,1.516
+2015,3,GA,59139,SunEdison LLC,Preliminary,0,6.227,0,0,6.227
+2015,3,GU,59579,Sunnova,Preliminary,0.743,0,0,0,0.743
+2015,3,HI,57313,SolarCity Corporation,Preliminary,10.002,16.944,0.000,0.000,26.940
+2015,3,HI,59139,SunEdison LLC,Preliminary,0,2.957,0,0,2.957
+2015,3,HI,59579,Sunnova,Preliminary,0.658,0,0,0,0.658
+2015,3,HI,59580,"SunPower Capital, LLC",Preliminary,3.411,0,0,0,3.411
+2015,3,HI,59624,"Vivint Solar, Inc.",Preliminary,20.560,0.000,0.000,0.000,20.560
+2015,3,HI,59647,Sunrun Inc.,Preliminary,11.830,0,0,0,11.830
+2015,3,IN,59579,Sunnova,Preliminary,0.020,0,0,0,0.020
+2015,3,LA,59579,Sunnova,Preliminary,0.139,0,0,0,0.139
+2015,3,MA,57313,SolarCity Corporation,Preliminary,25.757,3.150,0.000,0.000,28.910
+2015,3,MA,59139,SunEdison LLC,Preliminary,0,14.583,0,0,14.583
+2015,3,MA,59579,Sunnova,Preliminary,0.898,0,0,0,0.898
+2015,3,MA,59580,"SunPower Capital, LLC",Preliminary,1.956,0,0,0,1.956
+2015,3,MA,59624,"Vivint Solar, Inc.",Preliminary,23.457,0.000,0.000,0.000,23.457
+2015,3,MA,59647,Sunrun Inc.,Preliminary,15.395,0,0,0,15.395
+2015,3,MD,57313,SolarCity Corporation,Preliminary,29.288,6.362,0.000,0.000,35.650
+2015,3,MD,59139,SunEdison LLC,Preliminary,0,8.102,0,0,8.102
+2015,3,MD,59579,Sunnova,Preliminary,0.050,0,0,0,0.050
+2015,3,MD,59624,"Vivint Solar, Inc.",Preliminary,22.376,0.000,0.000,0.000,22.376
+2015,3,MD,59647,Sunrun Inc.,Preliminary,0.850,0,0,0,0.850
+2015,3,ME,57313,SolarCity Corporation,Preliminary,0.000,1.015,0.000,0.000,1.020
+2015,3,MO,59579,Sunnova,Preliminary,0.015,0,0,0,0.015
+2015,3,NJ,57313,SolarCity Corporation,Preliminary,20.039,0.792,0.000,0.000,20.830
+2015,3,NJ,59139,SunEdison LLC,Preliminary,0,55.438,1.380,0,56.818
+2015,3,NJ,59579,Sunnova,Preliminary,10.757,0,0,0,10.757
+2015,3,NJ,59580,"SunPower Capital, LLC",Preliminary,7.170,0,0,0,7.170
+2015,3,NJ,59624,"Vivint Solar, Inc.",Preliminary,19.898,0.000,0.000,0.000,19.898
+2015,3,NJ,59647,Sunrun Inc.,Preliminary,16.757,0,0,0,16.757
+2015,3,NM,57313,SolarCity Corporation,Preliminary,0.015,3.113,0.000,0.000,3.120
+2015,3,NM,59579,Sunnova,Preliminary,0.493,0,0,0,0.493
+2015,3,NV,57313,SolarCity Corporation,Preliminary,9.173,0.336,0.000,0.000,9.510
+2015,3,NV,59139,SunEdison LLC,Preliminary,0,1.165,0,0,1.165
+2015,3,NV,59579,Sunnova,Preliminary,2.667,0,0,0,2.667
+2015,3,NV,59647,Sunrun Inc.,Preliminary,0.719,0,0,0,0.719
+2015,3,NY,57313,SolarCity Corporation,Preliminary,30.264,4.114,0.000,0.000,34.370
+2015,3,NY,59139,SunEdison LLC,Preliminary,0,5.929,0,0,5.929
+2015,3,NY,59579,Sunnova,Preliminary,0.426,0,0,0,0.426
+2015,3,NY,59580,"SunPower Capital, LLC",Preliminary,14.715,0,0,0,14.715
+2015,3,NY,59624,"Vivint Solar, Inc.",Preliminary,22.270,0.000,0.000,0.000,22.270
+2015,3,NY,59647,Sunrun Inc.,Preliminary,15.631,0,0,0,15.631
+2015,3,OH,57313,SolarCity Corporation,Preliminary,0.000,5.532,0.000,0.000,5.530
+2015,3,OR,57313,SolarCity Corporation,Preliminary,12.818,7.383,0.000,0.000,20.200
+2015,3,OR,59139,SunEdison LLC,Preliminary,0,2.248,0,0,2.248
+2015,3,OR,59647,Sunrun Inc.,Preliminary,0.016,0,0,0,0.016
+2015,3,PA,57313,SolarCity Corporation,Preliminary,0.592,0.081,0.000,0.000,0.670
+2015,3,PA,59139,SunEdison LLC,Preliminary,0,8.772,0,0,8.772
+2015,3,PA,59579,Sunnova,Preliminary,0.018,0,0,0,0.018
+2015,3,PA,59580,"SunPower Capital, LLC",Preliminary,0.638,0,0,0,0.638
+2015,3,PA,59647,Sunrun Inc.,Preliminary,0.584,0,0,0,0.584
+2015,3,PR,57313,SolarCity Corporation,Preliminary,0.000,0.645,0.000,0.000,0.650
+2015,3,PR,59139,SunEdison LLC,Preliminary,0,5.627,0,0,5.627
+2015,3,PR,59579,Sunnova,Preliminary,3.660,0,0,0,3.660
+2015,3,TX,57313,SolarCity Corporation,Preliminary,6.778,11.794,0.000,0.000,18.570
+2015,3,TX,59139,SunEdison LLC,Preliminary,0,0.677,0,0,0.677
+2015,3,TX,59579,Sunnova,Preliminary,0.095,0,0,0,0.095
+2015,3,UT,57313,SolarCity Corporation,Preliminary,0.000,0.954,0.000,0.000,0.950
+2015,3,VT,59580,"SunPower Capital, LLC",Preliminary,2.227,0,0,0,2.227
+2015,3,WA,57313,SolarCity Corporation,Preliminary,0.519,0.000,0.000,0.000,0.520
+2015,3,WI,59139,SunEdison LLC,Preliminary,0,0.477,0,0,0.477
+2015,4,AZ,57313,SolarCity Corporation,Preliminary,133.189,40.918,0.000,0.000,174.110
+2015,4,AZ,59139,SunEdison LLC,Preliminary,0,19.448,0,0,19.448
+2015,4,AZ,59579,Sunnova,Preliminary,5.108,0,0,0,5.108
+2015,4,AZ,59580,"SunPower Capital, LLC",Preliminary,38.724,0,0,0,38.724
+2015,4,AZ,59624,"Vivint Solar, Inc.",Preliminary,4.239,0,0,0,4.239
+2015,4,AZ,59647,Sunrun Inc.,Preliminary,8.175,0,0,0,8.175
+2015,4,CA,57313,SolarCity Corporation,Preliminary,291.741,84.575,0.000,0.000,376.310
+2015,4,CA,59139,SunEdison LLC,Preliminary,0,72.037,0,0,72.037
+2015,4,CA,59557,RGS Energy,Preliminary,0.293,0.000,0.000,0.000,0.293
+2015,4,CA,59579,Sunnova,Preliminary,20.527,0,0,0,20.527
+2015,4,CA,59580,"SunPower Capital, LLC",Preliminary,121.555,0,0,0,121.555
+2015,4,CA,59624,"Vivint Solar, Inc.",Preliminary,92.867,0,0,0,92.867
+2015,4,CA,59647,Sunrun Inc.,Preliminary,172.704,0,0,0,172.704
+2015,4,CO,57313,SolarCity Corporation,Preliminary,44.878,10.056,0.000,0.000,54.940
+2015,4,CO,59139,SunEdison LLC,Preliminary,0,9.183,0.102,0,9.285
+2015,4,CO,59579,Sunnova,Preliminary,0.102,0,0,0,0.102
+2015,4,CO,59580,"SunPower Capital, LLC",Preliminary,7.779,0,0,0,7.779
+2015,4,CO,59647,Sunrun Inc.,Preliminary,7.379,0,0,0,7.379
+2015,4,CT,57313,SolarCity Corporation,Preliminary,14.078,4.745,0.000,0.000,18.830
+2015,4,CT,59139,SunEdison LLC,Preliminary,0,3.866,0,0,3.866
+2015,4,CT,59579,Sunnova,Preliminary,0.991,0,0,0,0.991
+2015,4,CT,59647,Sunrun Inc.,Preliminary,1.945,0,0,0,1.945
+2015,4,DC,57313,SolarCity Corporation,Preliminary,0.662,0.000,0.000,0.000,0.660
+2015,4,DC,59647,Sunrun Inc.,Preliminary,0.030,0,0,0,0.030
+2015,4,DE,57313,SolarCity Corporation,Preliminary,2.562,0.413,0.000,0.000,2.970
+2015,4,DE,59647,Sunrun Inc.,Preliminary,1.209,0,0,0,1.209
+2015,4,FL,57313,SolarCity Corporation,Preliminary,1.367,0.000,0.000,0.000,1.370
+2015,4,FL,59139,SunEdison LLC,Preliminary,0,1.516,0,0,1.516
+2015,4,GA,59139,SunEdison LLC,Preliminary,0,6.227,0,0,6.227
+2015,4,GU,59579,Sunnova,Preliminary,0.880,0,0,0,0.880
+2015,4,HI,57313,SolarCity Corporation,Preliminary,10.081,16.944,0.000,0.000,27.020
+2015,4,HI,59139,SunEdison LLC,Preliminary,0,3.107,0,0,3.107
+2015,4,HI,59579,Sunnova,Preliminary,0.690,0,0,0,0.690
+2015,4,HI,59580,"SunPower Capital, LLC",Preliminary,3.483,0,0,0,3.483
+2015,4,HI,59624,"Vivint Solar, Inc.",Preliminary,20.949,0,0,0,20.949
+2015,4,HI,59647,Sunrun Inc.,Preliminary,12.483,0,0,0,12.483
+2015,4,IN,59579,Sunnova,Preliminary,0.020,0,0,0,0.020
+2015,4,LA,59579,Sunnova,Preliminary,0.150,0,0,0,0.150
+2015,4,MA,57313,SolarCity Corporation,Preliminary,28.365,3.150,0.000,0.000,31.510
+2015,4,MA,59139,SunEdison LLC,Preliminary,0,14.583,0,0,14.583
+2015,4,MA,59579,Sunnova,Preliminary,1.156,0,0,0,1.156
+2015,4,MA,59580,"SunPower Capital, LLC",Preliminary,1.956,0,0,0,1.956
+2015,4,MA,59624,"Vivint Solar, Inc.",Preliminary,26.234,0,0,0,26.234
+2015,4,MA,59647,Sunrun Inc.,Preliminary,15.826,0,0,0,15.826
+2015,4,MD,57313,SolarCity Corporation,Preliminary,31.375,6.564,0.000,0.000,37.930
+2015,4,MD,59139,SunEdison LLC,Preliminary,0,8.102,0,0,8.102
+2015,4,MD,59579,Sunnova,Preliminary,0.050,0,0,0,0.050
+2015,4,MD,59624,"Vivint Solar, Inc.",Preliminary,25.079,0,0,0,25.079
+2015,4,MD,59647,Sunrun Inc.,Preliminary,0.880,0,0,0,0.880
+2015,4,ME,57313,SolarCity Corporation,Preliminary,0.000,1.026,0.000,0.000,1.030
+2015,4,MO,59579,Sunnova,Preliminary,0.015,0,0,0,0.015
+2015,4,NJ,57313,SolarCity Corporation,Preliminary,20.907,0.792,0.000,0.000,21.700
+2015,4,NJ,59139,SunEdison LLC,Preliminary,0,55.438,1.380,0,56.818
+2015,4,NJ,59579,Sunnova,Preliminary,12.193,0,0,0,12.193
+2015,4,NJ,59580,"SunPower Capital, LLC",Preliminary,7.179,0,0,0,7.179
+2015,4,NJ,59624,"Vivint Solar, Inc.",Preliminary,22.076,0,0,0,22.076
+2015,4,NJ,59647,Sunrun Inc.,Preliminary,17.255,0,0,0,17.255
+2015,4,NM,57313,SolarCity Corporation,Preliminary,0.015,3.113,0.000,0.000,3.120
+2015,4,NM,59579,Sunnova,Preliminary,0.562,0,0,0,0.562
+2015,4,NV,57313,SolarCity Corporation,Preliminary,9.744,0.336,0.000,0.000,10.080
+2015,4,NV,59139,SunEdison LLC,Preliminary,0,1.165,0,0,1.165
+2015,4,NV,59579,Sunnova,Preliminary,2.892,0,0,0,2.892
+2015,4,NV,59647,Sunrun Inc.,Preliminary,0.822,0,0,0,0.822
+2015,4,NY,57313,SolarCity Corporation,Preliminary,32.412,4.114,0.000,0.000,36.520
+2015,4,NY,59139,SunEdison LLC,Preliminary,0,5.929,0,0,5.929
+2015,4,NY,59579,Sunnova,Preliminary,0.476,0,0,0,0.476
+2015,4,NY,59580,"SunPower Capital, LLC",Preliminary,15.736,0,0,0,15.736
+2015,4,NY,59624,"Vivint Solar, Inc.",Preliminary,25.987,0,0,0,25.987
+2015,4,NY,59647,Sunrun Inc.,Preliminary,16.248,0,0,0,16.248
+2015,4,OH,57313,SolarCity Corporation,Preliminary,0.000,5.532,0.000,0.000,5.530
+2015,4,OR,57313,SolarCity Corporation,Preliminary,13.090,7.383,0.000,0.000,20.470
+2015,4,OR,59139,SunEdison LLC,Preliminary,0,2.248,0,0,2.248
+2015,4,OR,59647,Sunrun Inc.,Preliminary,0.022,0,0,0,0.022
+2015,4,PA,57313,SolarCity Corporation,Preliminary,0.592,0.081,0.000,0.000,0.670
+2015,4,PA,59139,SunEdison LLC,Preliminary,0,8.772,0,0,8.772
+2015,4,PA,59579,Sunnova,Preliminary,0.018,0,0,0,0.018
+2015,4,PA,59580,"SunPower Capital, LLC",Preliminary,0.638,0,0,0,0.638
+2015,4,PA,59647,Sunrun Inc.,Preliminary,0.584,0,0,0,0.584
+2015,4,PR,57313,SolarCity Corporation,Preliminary,0.000,1.308,0.000,0.000,1.310
+2015,4,PR,59139,SunEdison LLC,Preliminary,0,5.627,0,0,5.627
+2015,4,PR,59579,Sunnova,Preliminary,4.558,0,0,0,4.558
+2015,4,TX,57313,SolarCity Corporation,Preliminary,6.888,11.794,0.000,0.000,18.680
+2015,4,TX,59139,SunEdison LLC,Preliminary,0,0.677,0,0,0.677
+2015,4,TX,59579,Sunnova,Preliminary,0.096,0,0,0,0.096
+2015,4,UT,57313,SolarCity Corporation,Preliminary,0.000,0.954,0.000,0.000,0.950
+2015,4,VA,57313,SolarCity Corporation,Preliminary,0.044,0.000,0.000,0.000,0.040
+2015,4,VT,59580,"SunPower Capital, LLC",Preliminary,2.227,0,0,0,2.227
+2015,4,WA,57313,SolarCity Corporation,Preliminary,0.519,0.000,0.000,0.000,0.520
+2015,4,WI,59139,SunEdison LLC,Preliminary,0,0.477,0,0,0.477
+2015,5,AZ,57313,SolarCity Corporation,Preliminary,138.728,40.918,0.000,0.000,179.650
+2015,5,AZ,59139,SunEdison LLC,Preliminary,1.113,19.448,0.000,0.000,20.561
+2015,5,AZ,59579,Sunnova,Preliminary,5.476,0,0,0,5.476
+2015,5,AZ,59580,"SunPower Capital, LLC",Preliminary,39.843,0,0,0,39.843
+2015,5,AZ,59624,"Vivint Solar, Inc.",Preliminary,5.066,0.000,0.000,0.000,5.066
+2015,5,AZ,59647,Sunrun Inc.,Preliminary,8.703,0,0,0,8.703
+2015,5,CA,57313,SolarCity Corporation,Preliminary,305.207,86.752,0.000,0.000,391.960
+2015,5,CA,59139,SunEdison LLC,Preliminary,0.837,72.037,0.000,0.000,72.874
+2015,5,CA,59557,RGS Energy,Preliminary,0.293,0.000,0.000,0.000,0.293
+2015,5,CA,59579,Sunnova,Preliminary,21.047,0,0,0,21.047
+2015,5,CA,59580,"SunPower Capital, LLC",Preliminary,124.796,0,0,0,124.796
+2015,5,CA,59624,"Vivint Solar, Inc.",Preliminary,99.147,0.000,0.000,0.000,99.147
+2015,5,CA,59647,Sunrun Inc.,Preliminary,177.847,0,0,0,177.847
+2015,5,CO,57313,SolarCity Corporation,Preliminary,45.913,10.056,0.000,0.000,55.970
+2015,5,CO,59139,SunEdison LLC,Preliminary,2.500,9.183,0.102,0.000,11.785
+2015,5,CO,59579,Sunnova,Preliminary,0.102,0,0,0,0.102
+2015,5,CO,59580,"SunPower Capital, LLC",Preliminary,7.779,0,0,0,7.779
+2015,5,CO,59647,Sunrun Inc.,Preliminary,7.431,0,0,0,7.431
+2015,5,CT,57313,SolarCity Corporation,Preliminary,15.251,4.874,0.000,0.000,20.120
+2015,5,CT,59139,SunEdison LLC,Preliminary,0.000,3.866,0.000,0.000,3.866
+2015,5,CT,59579,Sunnova,Preliminary,0.991,0,0,0,0.991
+2015,5,CT,59647,Sunrun Inc.,Preliminary,2.151,0,0,0,2.151
+2015,5,DC,57313,SolarCity Corporation,Preliminary,0.708,0.000,0.000,0.000,0.710
+2015,5,DC,59647,Sunrun Inc.,Preliminary,0.030,0,0,0,0.030
+2015,5,DE,57313,SolarCity Corporation,Preliminary,2.774,0.413,0.000,0.000,3.180
+2015,5,DE,59647,Sunrun Inc.,Preliminary,1.391,0,0,0,1.391
+2015,5,FL,57313,SolarCity Corporation,Preliminary,1.427,0.000,0.000,0.000,1.430
+2015,5,FL,59139,SunEdison LLC,Preliminary,0.000,1.516,0.000,0.000,1.516
+2015,5,GA,59139,SunEdison LLC,Preliminary,0.000,6.227,0.000,0.000,6.227
+2015,5,GU,59579,Sunnova,Preliminary,0.880,0,0,0,0.880
+2015,5,HI,57313,SolarCity Corporation,Preliminary,10.211,17.591,0.000,0.000,27.800
+2015,5,HI,59139,SunEdison LLC,Preliminary,0.000,3.107,0.000,0.000,3.107
+2015,5,HI,59579,Sunnova,Preliminary,0.719,0,0,0,0.719
+2015,5,HI,59580,"SunPower Capital, LLC",Preliminary,3.770,0,0,0,3.770
+2015,5,HI,59624,"Vivint Solar, Inc.",Preliminary,21.605,0.000,0.000,0.000,21.605
+2015,5,HI,59647,Sunrun Inc.,Preliminary,12.934,0,0,0,12.934
+2015,5,IN,59579,Sunnova,Preliminary,0.020,0,0,0,0.020
+2015,5,LA,59579,Sunnova,Preliminary,0.150,0,0,0,0.150
+2015,5,MA,57313,SolarCity Corporation,Preliminary,31.807,3.150,0.000,0.000,34.960
+2015,5,MA,59139,SunEdison LLC,Preliminary,0.040,14.583,0.000,0.000,14.623
+2015,5,MA,59579,Sunnova,Preliminary,1.156,0,0,0,1.156
+2015,5,MA,59580,"SunPower Capital, LLC",Preliminary,1.956,0,0,0,1.956
+2015,5,MA,59624,"Vivint Solar, Inc.",Preliminary,29.460,0.000,0.000,0.000,29.460
+2015,5,MA,59647,Sunrun Inc.,Preliminary,16.222,0,0,0,16.222
+2015,5,MD,57313,SolarCity Corporation,Preliminary,33.339,6.564,0.000,0.000,39.960
+2015,5,MD,59139,SunEdison LLC,Preliminary,0.000,8.102,0.000,0.000,8.102
+2015,5,MD,59579,Sunnova,Preliminary,0.050,0,0,0,0.050
+2015,5,MD,59624,"Vivint Solar, Inc.",Preliminary,28.715,0.000,0.000,0.000,28.715
+2015,5,MD,59647,Sunrun Inc.,Preliminary,0.901,0,0,0,0.901
+2015,5,ME,57313,SolarCity Corporation,Preliminary,0.000,1.026,0.000,0.000,1.030
+2015,5,MO,59579,Sunnova,Preliminary,0.015,0,0,0,0.015
+2015,5,NJ,57313,SolarCity Corporation,Preliminary,21.520,0.792,0.000,0.000,22.310
+2015,5,NJ,59139,SunEdison LLC,Preliminary,0.290,55.438,1.380,0.000,57.108
+2015,5,NJ,59579,Sunnova,Preliminary,12.212,0,0,0,12.212
+2015,5,NJ,59580,"SunPower Capital, LLC",Preliminary,7.186,0,0,0,7.186
+2015,5,NJ,59624,"Vivint Solar, Inc.",Preliminary,24.008,0.000,0.000,0.000,24.008
+2015,5,NJ,59647,Sunrun Inc.,Preliminary,17.548,0,0,0,17.548
+2015,5,NM,57313,SolarCity Corporation,Preliminary,0.015,3.113,0.000,0.000,3.120
+2015,5,NM,59579,Sunnova,Preliminary,0.562,0,0,0,0.562
+2015,5,NV,57313,SolarCity Corporation,Preliminary,10.690,0.699,0.000,0.000,11.390
+2015,5,NV,59139,SunEdison LLC,Preliminary,0.000,1.165,0.000,0.000,1.165
+2015,5,NV,59579,Sunnova,Preliminary,2.893,0,0,0,2.893
+2015,5,NV,59647,Sunrun Inc.,Preliminary,1.201,0,0,0,1.201
+2015,5,NY,57313,SolarCity Corporation,Preliminary,35.278,4.114,0.000,0.000,39.390
+2015,5,NY,59139,SunEdison LLC,Preliminary,0.000,5.929,0.000,0.000,5.929
+2015,5,NY,59579,Sunnova,Preliminary,0.476,0,0,0,0.476
+2015,5,NY,59580,"SunPower Capital, LLC",Preliminary,16.929,0,0,0,16.929
+2015,5,NY,59624,"Vivint Solar, Inc.",Preliminary,29.556,0.000,0.000,0.000,29.556
+2015,5,NY,59647,Sunrun Inc.,Preliminary,16.783,0,0,0,16.783
+2015,5,OH,57313,SolarCity Corporation,Preliminary,0.000,5.532,0.000,0.000,5.530
+2015,5,OH,59139,SunEdison LLC,Preliminary,0.000,0.405,0.000,0.000,0.405
+2015,5,OR,57313,SolarCity Corporation,Preliminary,13.389,7.383,0.000,0.000,20.770
+2015,5,OR,59139,SunEdison LLC,Preliminary,0.000,2.248,0.000,0.000,2.248
+2015,5,OR,59647,Sunrun Inc.,Preliminary,0.026,0,0,0,0.026
+2015,5,PA,57313,SolarCity Corporation,Preliminary,0.592,0.081,0.000,0.000,0.670
+2015,5,PA,59139,SunEdison LLC,Preliminary,0.000,8.772,0.000,0.000,8.772
+2015,5,PA,59579,Sunnova,Preliminary,0.018,0,0,0,0.018
+2015,5,PA,59580,"SunPower Capital, LLC",Preliminary,0.638,0,0,0,0.638
+2015,5,PA,59647,Sunrun Inc.,Preliminary,0.584,0,0,0,0.584
+2015,5,PR,57313,SolarCity Corporation,Preliminary,0.000,3.186,0.000,0.000,3.190
+2015,5,PR,59139,SunEdison LLC,Preliminary,0.000,5.627,0.000,0.000,5.627
+2015,5,PR,59579,Sunnova,Preliminary,4.565,0,0,0,4.565
+2015,5,TX,57313,SolarCity Corporation,Preliminary,7.076,11.794,0.000,0.000,18.870
+2015,5,TX,59139,SunEdison LLC,Preliminary,0.000,0.667,0.000,0.000,0.667
+2015,5,TX,59579,Sunnova,Preliminary,0.095,0,0,0,0.095
+2015,5,UT,57313,SolarCity Corporation,Preliminary,0.000,0.954,0.000,0.000,0.950
+2015,5,UT,59624,"Vivint Solar, Inc.",Preliminary,0.004,0,0,0,0.004
+2015,5,VA,57313,SolarCity Corporation,Preliminary,0.044,0.000,0.000,0.000,0.040
+2015,5,VT,59580,"SunPower Capital, LLC",Preliminary,2.227,0,0,0,2.227
+2015,5,WA,57313,SolarCity Corporation,Preliminary,0.519,0.000,0.000,0.000,0.520
+2015,5,WI,59139,SunEdison LLC,Preliminary,0.000,0.477,0.000,0.000,0.477
+2015,6,AZ,57313,SolarCity Corporation,Preliminary,143.413,40.918,0.000,0.000,184.330
+2015,6,AZ,59139,SunEdison LLC,Preliminary,1.113,19.448,0,0,20.561
+2015,6,AZ,59579,Sunnova,Preliminary,6.513,0,0,0,6.513
+2015,6,AZ,59580,"SunPower Capital, LLC",Preliminary,41.476,0,0,0,41.476
+2015,6,AZ,59624,"Vivint Solar, Inc.",Preliminary,6.138,0.000,0.000,0.000,6.138
+2015,6,AZ,59647,Sunrun Inc.,Preliminary,9.122,0,0,0,9.122
+2015,6,CA,57313,SolarCity Corporation,Preliminary,318.391,90.501,0.000,0.000,408.890
+2015,6,CA,59139,SunEdison LLC,Preliminary,0.837,72.256,0,0,73.093
+2015,6,CA,59557,RGS Energy,Preliminary,0.293,0.000,0.000,0.000,0.293
+2015,6,CA,59579,Sunnova,Preliminary,27.068,0,0,0,27.068
+2015,6,CA,59580,"SunPower Capital, LLC",Preliminary,129.189,0,0,0,129.189
+2015,6,CA,59624,"Vivint Solar, Inc.",Preliminary,106.941,0.000,0.000,0.000,106.941
+2015,6,CA,59647,Sunrun Inc.,Preliminary,183.190,0,0,0,183.190
+2015,6,CO,57313,SolarCity Corporation,Preliminary,46.484,10.398,0.000,0.000,56.880
+2015,6,CO,59139,SunEdison LLC,Preliminary,2.500,9.183,0.102,0,11.785
+2015,6,CO,59579,Sunnova,Preliminary,0.118,0,0,0,0.118
+2015,6,CO,59580,"SunPower Capital, LLC",Preliminary,7.779,0,0,0,7.779
+2015,6,CO,59647,Sunrun Inc.,Preliminary,7.533,0,0,0,7.533
+2015,6,CT,57313,SolarCity Corporation,Preliminary,16.599,5.386,0.000,0.000,21.990
+2015,6,CT,59139,SunEdison LLC,Preliminary,0,3.866,0,0,3.866
+2015,6,CT,59579,Sunnova,Preliminary,2.101,0,0,0,2.101
+2015,6,CT,59647,Sunrun Inc.,Preliminary,2.309,0,0,0,2.309
+2015,6,DC,57313,SolarCity Corporation,Preliminary,0.713,0.000,0.000,0.000,0.710
+2015,6,DC,59647,Sunrun Inc.,Preliminary,0.029,0,0,0,0.029
+2015,6,DE,57313,SolarCity Corporation,Preliminary,3.160,0.413,0.000,0.000,3.570
+2015,6,DE,59647,Sunrun Inc.,Preliminary,1.630,0,0,0,1.630
+2015,6,FL,57313,SolarCity Corporation,Preliminary,1.486,0.000,0.000,0.000,1.490
+2015,6,FL,59139,SunEdison LLC,Preliminary,0,1.516,0,0,1.516
+2015,6,GA,59139,SunEdison LLC,Preliminary,0,6.227,0,0,6.227
+2015,6,GU,59579,Sunnova,Preliminary,1.627,0,0,0,1.627
+2015,6,HI,57313,SolarCity Corporation,Preliminary,10.380,17.678,0.000,0.000,28.060
+2015,6,HI,59139,SunEdison LLC,Preliminary,0,3.224,0,0,3.224
+2015,6,HI,59579,Sunnova,Preliminary,1.157,0,0,0,1.157
+2015,6,HI,59580,"SunPower Capital, LLC",Preliminary,3.901,0,0,0,3.901
+2015,6,HI,59624,"Vivint Solar, Inc.",Preliminary,22.506,0.000,0.000,0.000,22.506
+2015,6,HI,59647,Sunrun Inc.,Preliminary,13.404,0,0,0,13.404
+2015,6,IN,59579,Sunnova,Preliminary,0.020,0,0,0,0.020
+2015,6,LA,59579,Sunnova,Preliminary,0.156,0,0,0,0.156
+2015,6,MA,57313,SolarCity Corporation,Preliminary,35.480,3.608,0.000,0.000,39.090
+2015,6,MA,59139,SunEdison LLC,Preliminary,0.040,14.583,0,0,14.623
+2015,6,MA,59579,Sunnova,Preliminary,2.296,0,0,0,2.296
+2015,6,MA,59580,"SunPower Capital, LLC",Preliminary,1.956,0,0,0,1.956
+2015,6,MA,59624,"Vivint Solar, Inc.",Preliminary,32.640,0.000,0.000,0.000,32.640
+2015,6,MA,59647,Sunrun Inc.,Preliminary,16.770,0,0,0,16.770
+2015,6,MD,57313,SolarCity Corporation,Preliminary,36.858,6.564,0.000,0.000,43.420
+2015,6,MD,59139,SunEdison LLC,Preliminary,0,8.102,0,0,8.102
+2015,6,MD,59579,Sunnova,Preliminary,0.082,0,0,0,0.082
+2015,6,MD,59624,"Vivint Solar, Inc.",Preliminary,32.793,0.000,0.000,0.000,32.793
+2015,6,MD,59647,Sunrun Inc.,Preliminary,0.953,0,0,0,0.953
+2015,6,ME,57313,SolarCity Corporation,Preliminary,0.000,1.026,0.000,0.000,1.030
+2015,6,MO,59579,Sunnova,Preliminary,0.015,0,0,0,0.015
+2015,6,NJ,57313,SolarCity Corporation,Preliminary,22.780,0.916,0.000,0.000,23.700
+2015,6,NJ,59139,SunEdison LLC,Preliminary,0.290,55.438,1.380,0,57.108
+2015,6,NJ,59579,Sunnova,Preliminary,17.833,0,0,0,17.833
+2015,6,NJ,59580,"SunPower Capital, LLC",Preliminary,7.186,0,0,0,7.186
+2015,6,NJ,59624,"Vivint Solar, Inc.",Preliminary,25.894,0.000,0.000,0.000,25.894
+2015,6,NJ,59647,Sunrun Inc.,Preliminary,17.933,0,0,0,17.933
+2015,6,NM,57313,SolarCity Corporation,Preliminary,0.015,3.113,0.000,0.000,3.120
+2015,6,NM,59579,Sunnova,Preliminary,0.696,0,0,0,0.696
+2015,6,NV,57313,SolarCity Corporation,Preliminary,11.762,0.699,0.000,0.000,12.460
+2015,6,NV,59139,SunEdison LLC,Preliminary,0,1.165,0,0,1.165
+2015,6,NV,59579,Sunnova,Preliminary,5.189,0,0,0,5.189
+2015,6,NV,59647,Sunrun Inc.,Preliminary,1.519,0,0,0,1.519
+2015,6,NY,57313,SolarCity Corporation,Preliminary,37.793,4.408,0.000,0.000,42.200
+2015,6,NY,59139,SunEdison LLC,Preliminary,0,5.929,0,0,5.929
+2015,6,NY,59579,Sunnova,Preliminary,0.962,0,0,0,0.962
+2015,6,NY,59580,"SunPower Capital, LLC",Preliminary,18.257,0,0,0,18.257
+2015,6,NY,59624,"Vivint Solar, Inc.",Preliminary,31.928,0.000,0.000,0.000,31.928
+2015,6,NY,59647,Sunrun Inc.,Preliminary,17.309,0,0,0,17.309
+2015,6,OH,57313,SolarCity Corporation,Preliminary,0.000,5.532,0.000,0.000,5.530
+2015,6,OH,59139,SunEdison LLC,Preliminary,0,0.405,0,0,0.405
+2015,6,OR,57313,SolarCity Corporation,Preliminary,13.633,7.383,0.000,0.000,21.010
+2015,6,OR,59139,SunEdison LLC,Preliminary,0,2.248,0,0,2.248
+2015,6,OR,59647,Sunrun Inc.,Preliminary,0.029,0,0,0,0.029
+2015,6,PA,57313,SolarCity Corporation,Preliminary,0.592,0.081,0.000,0.000,0.670
+2015,6,PA,59139,SunEdison LLC,Preliminary,0,8.772,0,0,8.772
+2015,6,PA,59579,Sunnova,Preliminary,0.018,0,0,0,0.018
+2015,6,PA,59580,"SunPower Capital, LLC",Preliminary,0.638,0,0,0,0.638
+2015,6,PA,59647,Sunrun Inc.,Preliminary,0.583,0,0,0,0.583
+2015,6,PR,57313,SolarCity Corporation,Preliminary,0.000,3.186,0.000,0.000,3.190
+2015,6,PR,59139,SunEdison LLC,Preliminary,0,5.627,0,0,5.627
+2015,6,PR,59579,Sunnova,Preliminary,6.294,0,0,0,6.294
+2015,6,TX,57313,SolarCity Corporation,Preliminary,7.747,11.940,0.000,0.000,19.540
+2015,6,TX,59139,SunEdison LLC,Preliminary,0,0.677,0,0,0.677
+2015,6,TX,59579,Sunnova,Preliminary,0.115,0,0,0,0.115
+2015,6,UT,57313,SolarCity Corporation,Preliminary,0.000,0.954,0.000,0.000,0.950
+2015,6,UT,59624,"Vivint Solar, Inc.",Preliminary,0.014,0,0,0,0.014
+2015,6,VA,57313,SolarCity Corporation,Preliminary,0.051,0.000,0.000,0.000,0.050
+2015,6,VT,59580,"SunPower Capital, LLC",Preliminary,2.227,0,0,0,2.227
+2015,6,WA,57313,SolarCity Corporation,Preliminary,0.519,0.000,0.000,0.000,0.520
+2015,6,WI,59139,SunEdison LLC,Preliminary,0,0.477,0,0,0.477
+2015,7,AZ,57313,SolarCity Corporation,Preliminary,146.980,40.918,0.000,0.000,187.900
+2015,7,AZ,59139,SunEdison LLC,Preliminary,1.113,19.792,0,0,20.905
+2015,7,AZ,59579,Sunnova,Preliminary,6.702,0,0,0,6.702
+2015,7,AZ,59580,"SunPower Capital, LLC",Preliminary,32.620,0,0,0,32.620
+2015,7,AZ,59624,"Vivint Solar, Inc.",Preliminary,7.258,0.000,0.000,0.000,7.258
+2015,7,AZ,59647,Sunrun Inc.,Preliminary,9.660,0,0,0,9.660
+2015,7,AZ,59738,"SunPower Capital Services, LLC",Preliminary,10.072,0,0,0,10.072
+2015,7,CA,57313,SolarCity Corporation,Preliminary,333.151,93.131,0.000,0.000,426.280
+2015,7,CA,59139,SunEdison LLC,Preliminary,0.837,72.340,0,0,73.177
+2015,7,CA,59557,RGS Energy,Preliminary,0.293,0.000,0.000,0.000,0.293
+2015,7,CA,59579,Sunnova,Preliminary,28.669,0,0,0,28.669
+2015,7,CA,59580,"SunPower Capital, LLC",Preliminary,107.371,0,0,0,107.371
+2015,7,CA,59624,"Vivint Solar, Inc.",Preliminary,113.849,0.000,0.000,0.000,113.849
+2015,7,CA,59647,Sunrun Inc.,Preliminary,188.523,0,0,0,188.523
+2015,7,CA,59738,"SunPower Capital Services, LLC",Preliminary,25.485,0,0,0,25.485
+2015,7,CO,57313,SolarCity Corporation,Preliminary,47.229,10.398,0.000,0.000,57.630
+2015,7,CO,59139,SunEdison LLC,Preliminary,2.500,9.183,0.102,0,11.785
+2015,7,CO,59579,Sunnova,Preliminary,0.119,0,0,0,0.119
+2015,7,CO,59580,"SunPower Capital, LLC",Preliminary,3.167,0,0,0,3.167
+2015,7,CO,59647,Sunrun Inc.,Preliminary,7.597,0,0,0,7.597
+2015,7,CO,59738,"SunPower Capital Services, LLC",Preliminary,4.604,0,0,0,4.604
+2015,7,CT,57313,SolarCity Corporation,Preliminary,18.042,7.071,0.000,0.000,25.110
+2015,7,CT,59139,SunEdison LLC,Preliminary,0,3.866,0,0,3.866
+2015,7,CT,59579,Sunnova,Preliminary,2.352,0,0,0,2.352
+2015,7,CT,59647,Sunrun Inc.,Preliminary,2.559,0,0,0,2.559
+2015,7,DC,57313,SolarCity Corporation,Preliminary,0.766,0.000,0.000,0.000,0.770
+2015,7,DC,59647,Sunrun Inc.,Preliminary,0.029,0,0,0,0.029
+2015,7,DE,57313,SolarCity Corporation,Preliminary,3.901,0.413,0.000,0.000,4.310
+2015,7,DE,59647,Sunrun Inc.,Preliminary,2.071,0,0,0,2.071
+2015,7,FL,57313,SolarCity Corporation,Preliminary,1.519,0.000,0.000,0.000,1.520
+2015,7,FL,59139,SunEdison LLC,Preliminary,0,1.516,0,0,1.516
+2015,7,GA,59139,SunEdison LLC,Preliminary,0,6.227,0,0,6.227
+2015,7,GU,59579,Sunnova,Preliminary,1.893,0,0,0,1.893
+2015,7,HI,57313,SolarCity Corporation,Preliminary,10.763,17.870,0.000,0.000,28.630
+2015,7,HI,59139,SunEdison LLC,Preliminary,0,3.224,0,0,3.224
+2015,7,HI,59579,Sunnova,Preliminary,1.173,0,0,0,1.173
+2015,7,HI,59580,"SunPower Capital, LLC",Preliminary,2.558,0,0,0,2.558
+2015,7,HI,59624,"Vivint Solar, Inc.",Preliminary,23.424,0.000,0.000,0.000,23.424
+2015,7,HI,59647,Sunrun Inc.,Preliminary,14.377,0,0,0,14.377
+2015,7,HI,59738,"SunPower Capital Services, LLC",Preliminary,1.448,0,0,0,1.448
+2015,7,IN,59579,Sunnova,Preliminary,0.020,0,0,0,0.020
+2015,7,LA,59579,Sunnova,Preliminary,0.156,0,0,0,0.156
+2015,7,MA,57313,SolarCity Corporation,Preliminary,40.099,3.709,0.000,0.000,43.810
+2015,7,MA,59139,SunEdison LLC,Preliminary,0.040,14.583,0,0,14.623
+2015,7,MA,59579,Sunnova,Preliminary,2.674,0,0,0,2.674
+2015,7,MA,59580,"SunPower Capital, LLC",Preliminary,1.534,0,0,0,1.534
+2015,7,MA,59624,"Vivint Solar, Inc.",Preliminary,35.414,0.000,0.000,0.000,35.414
+2015,7,MA,59647,Sunrun Inc.,Preliminary,17.454,0,0,0,17.454
+2015,7,MA,59738,"SunPower Capital Services, LLC",Preliminary,0.422,0,0,0,0.422
+2015,7,MD,57313,SolarCity Corporation,Preliminary,41.155,7.058,0.000,0.000,48.220
+2015,7,MD,59139,SunEdison LLC,Preliminary,0.000,8.102,0,0,8.102
+2015,7,MD,59579,Sunnova,Preliminary,0.174,0,0,0,0.174
+2015,7,MD,59624,"Vivint Solar, Inc.",Preliminary,38.079,0.000,0.000,0.000,38.079
+2015,7,MD,59647,Sunrun Inc.,Preliminary,1.023,0,0,0,1.023
+2015,7,ME,57313,SolarCity Corporation,Preliminary,0.000,1.026,0.000,0.000,1.030
+2015,7,MO,59579,Sunnova,Preliminary,0.015,0,0,0,0.015
+2015,7,NJ,57313,SolarCity Corporation,Preliminary,24.367,0.916,0.000,0.000,25.290
+2015,7,NJ,59139,SunEdison LLC,Preliminary,0.290,55.438,1.380,0,57.108
+2015,7,NJ,59579,Sunnova,Preliminary,20.115,0,0,0,20.115
+2015,7,NJ,59580,"SunPower Capital, LLC",Preliminary,5.198,0,0,0,5.198
+2015,7,NJ,59624,"Vivint Solar, Inc.",Preliminary,28.468,0.000,0.000,0.000,28.468
+2015,7,NJ,59647,Sunrun Inc.,Preliminary,18.879,0,0,0,18.879
+2015,7,NJ,59738,"SunPower Capital Services, LLC",Preliminary,1.988,0,0,0,1.988
+2015,7,NM,57313,SolarCity Corporation,Preliminary,0.015,3.113,0.000,0.000,3.120
+2015,7,NM,59579,Sunnova,Preliminary,0.752,0,0,0,0.752
+2015,7,NV,57313,SolarCity Corporation,Preliminary,16.067,0.699,0.000,0.000,16.770
+2015,7,NV,59139,SunEdison LLC,Preliminary,0,1.165,0,0,1.165
+2015,7,NV,59579,Sunnova,Preliminary,6.386,0,0,0,6.386
+2015,7,NV,59647,Sunrun Inc.,Preliminary,3.147,0,0,0,3.147
+2015,7,NY,57313,SolarCity Corporation,Preliminary,39.911,4.408,0.000,0.000,44.320
+2015,7,NY,59139,SunEdison LLC,Preliminary,0,5.929,0,0,5.929
+2015,7,NY,59579,Sunnova,Preliminary,1.037,0,0,0,1.037
+2015,7,NY,59580,"SunPower Capital, LLC",Preliminary,18.858,0,0,0,18.858
+2015,7,NY,59624,"Vivint Solar, Inc.",Preliminary,33.678,0.000,0.000,0.000,33.678
+2015,7,NY,59647,Sunrun Inc.,Preliminary,17.924,0,0,0,17.924
+2015,7,NY,59738,"SunPower Capital Services, LLC",Preliminary,0.222,0,0,0,0.222
+2015,7,OH,57313,SolarCity Corporation,Preliminary,0.000,5.532,0.000,0.000,5.530
+2015,7,OH,59139,SunEdison LLC,Preliminary,0,0.405,0,0,0.405
+2015,7,OR,57313,SolarCity Corporation,Preliminary,13.929,7.383,0.000,0.000,21.310
+2015,7,OR,59139,SunEdison LLC,Preliminary,0,2.248,0,0,2.248
+2015,7,OR,59647,Sunrun Inc.,Preliminary,0.029,0,0,0,0.029
+2015,7,PA,57313,SolarCity Corporation,Preliminary,0.592,0.081,0.000,0.000,0.670
+2015,7,PA,59139,SunEdison LLC,Preliminary,0,8.772,0,0,8.772
+2015,7,PA,59579,Sunnova,Preliminary,0.018,0,0,0,0.018
+2015,7,PA,59580,"SunPower Capital, LLC",Preliminary,0.523,0,0,0,0.523
+2015,7,PA,59647,Sunrun Inc.,Preliminary,0.583,0,0,0,0.583
+2015,7,PA,59738,"SunPower Capital Services, LLC",Preliminary,0.115,0,0,0,0.115
+2015,7,PR,57313,SolarCity Corporation,Preliminary,0.000,3.186,0.000,0.000,3.190
+2015,7,PR,59139,SunEdison LLC,Preliminary,0,5.627,0,0,5.627
+2015,7,PR,59579,Sunnova,Preliminary,6.518,0,0,0,6.518
+2015,7,TX,57313,SolarCity Corporation,Preliminary,8.525,11.794,0.000,0.000,20.310
+2015,7,TX,59139,SunEdison LLC,Preliminary,0,0.667,0,0,0.667
+2015,7,TX,59579,Sunnova,Preliminary,0.115,0,0,0,0.115
+2015,7,UT,57313,SolarCity Corporation,Preliminary,0.000,0.954,0.000,0.000,0.950
+2015,7,UT,59624,"Vivint Solar, Inc.",Preliminary,0.077,0.000,0.000,0.000,0.077
+2015,7,VA,57313,SolarCity Corporation,Preliminary,0.077,0.000,0.000,0.000,0.080
+2015,7,VT,59580,"SunPower Capital, LLC",Preliminary,1.707,0,0,0,1.707
+2015,7,VT,59738,"SunPower Capital Services, LLC",Preliminary,0.519,0,0,0,0.519
+2015,7,WA,57313,SolarCity Corporation,Preliminary,0.519,0.000,0.000,0.000,0.520
+2015,7,WI,59139,SunEdison LLC,Preliminary,0,0.477,0,0,0.477
+2015,8,AZ,57313,SolarCity Corporation,Preliminary,151.145,40.918,0.000,0.000,192.070
+2015,8,AZ,59139,SunEdison LLC,Preliminary,1.380,19.792,0.000,0.000,21.172
+2015,8,AZ,59579,Sunnova,Preliminary,7.025,0,0,0,7.025
+2015,8,AZ,59580,"SunPower Capital, LLC",Preliminary,33.355,0,0,0,33.355
+2015,8,AZ,59624,"Vivint Solar, Inc.",Preliminary,7.997,0.000,0.000,0.000,7.997
+2015,8,AZ,59647,Sunrun Inc.,Preliminary,10.357,0,0,0,10.357
+2015,8,AZ,59738,"SunPower Capital Services, LLC",Preliminary,10.072,0,0,0,10.072
+2015,8,CA,57313,SolarCity Corporation,Preliminary,349.271,95.776,0.000,0.000,445.050
+2015,8,CA,59139,SunEdison LLC,Preliminary,4.180,72.340,0.000,0.000,76.520
+2015,8,CA,59557,RGS Energy,Preliminary,0.293,0.000,0.000,0.000,0.293
+2015,8,CA,59579,Sunnova,Preliminary,32.174,0,0,0,32.174
+2015,8,CA,59580,"SunPower Capital, LLC",Preliminary,110.652,0,0,0,110.652
+2015,8,CA,59624,"Vivint Solar, Inc.",Preliminary,119.982,0.000,0.000,0.000,119.982
+2015,8,CA,59647,Sunrun Inc.,Preliminary,192.756,0,0,0,192.756
+2015,8,CA,59738,"SunPower Capital Services, LLC",Preliminary,25.485,0,0,0,25.485
+2015,8,CO,57313,SolarCity Corporation,Preliminary,47.877,10.398,0.000,0.000,58.280
+2015,8,CO,59139,SunEdison LLC,Preliminary,2.500,9.183,0.102,0.000,11.785
+2015,8,CO,59579,Sunnova,Preliminary,0.118,0,0,0,0.118
+2015,8,CO,59580,"SunPower Capital, LLC",Preliminary,3.175,0,0,0,3.175
+2015,8,CO,59647,Sunrun Inc.,Preliminary,7.746,0,0,0,7.746
+2015,8,CO,59738,"SunPower Capital Services, LLC",Preliminary,4.604,0,0,0,4.604
+2015,8,CT,57313,SolarCity Corporation,Preliminary,19.604,7.148,0.000,0.000,26.750
+2015,8,CT,59139,SunEdison LLC,Preliminary,0.000,3.866,0.000,0.000,3.866
+2015,8,CT,59579,Sunnova,Preliminary,3.196,0,0,0,3.196
+2015,8,CT,59624,"Vivint Solar, Inc.",Preliminary,0.031,0.000,0.000,0.000,0.031
+2015,8,CT,59647,Sunrun Inc.,Preliminary,2.661,0,0,0,2.661
+2015,8,DC,57313,SolarCity Corporation,Preliminary,0.785,0.000,0.000,0.000,0.790
+2015,8,DC,59647,Sunrun Inc.,Preliminary,0.029,0,0,0,0.029
+2015,8,DE,57313,SolarCity Corporation,Preliminary,4.235,0.413,0.000,0.000,4.650
+2015,8,DE,59647,Sunrun Inc.,Preliminary,2.199,0,0,0,2.199
+2015,8,FL,57313,SolarCity Corporation,Preliminary,1.559,0.000,0.000,0.000,1.560
+2015,8,FL,59139,SunEdison LLC,Preliminary,0.000,1.516,0.000,0.000,1.516
+2015,8,GA,59139,SunEdison LLC,Preliminary,0.000,6.277,0.000,0.000,6.277
+2015,8,GU,59579,Sunnova,Preliminary,2.493,0,0,0,2.493
+2015,8,HI,57313,SolarCity Corporation,Preliminary,11.051,18.614,0.000,0.000,29.660
+2015,8,HI,59139,SunEdison LLC,Preliminary,0.000,3.224,0.000,0.000,3.224
+2015,8,HI,59579,Sunnova,Preliminary,1.265,0,0,0,1.265
+2015,8,HI,59580,"SunPower Capital, LLC",Preliminary,2.730,0,0,0,2.730
+2015,8,HI,59624,"Vivint Solar, Inc.",Preliminary,23.838,0.000,0.000,0.000,23.838
+2015,8,HI,59647,Sunrun Inc.,Preliminary,15.127,0,0,0,15.127
+2015,8,HI,59738,"SunPower Capital Services, LLC",Preliminary,1.448,0,0,0,1.448
+2015,8,IN,59579,Sunnova,Preliminary,0.020,0,0,0,0.020
+2015,8,LA,59579,Sunnova,Preliminary,0.162,0,0,0,0.162
+2015,8,MA,57313,SolarCity Corporation,Preliminary,43.396,3.709,0.000,0.000,47.110
+2015,8,MA,59139,SunEdison LLC,Preliminary,0.010,14.583,0.000,0.000,14.593
+2015,8,MA,59579,Sunnova,Preliminary,3.693,0,0,0,3.693
+2015,8,MA,59580,"SunPower Capital, LLC",Preliminary,1.534,0,0,0,1.534
+2015,8,MA,59624,"Vivint Solar, Inc.",Preliminary,37.948,0.000,0.000,0.000,37.948
+2015,8,MA,59647,Sunrun Inc.,Preliminary,18.229,0,0,0,18.229
+2015,8,MA,59738,"SunPower Capital Services, LLC",Preliminary,0.422,0,0,0,0.422
+2015,8,MD,57313,SolarCity Corporation,Preliminary,46.275,7.479,0.000,0.000,53.750
+2015,8,MD,59139,SunEdison LLC,Preliminary,0.000,8.102,0.000,0.000,8.102
+2015,8,MD,59579,Sunnova,Preliminary,0.357,0,0,0,0.357
+2015,8,MD,59624,"Vivint Solar, Inc.",Preliminary,44.109,0.000,0.000,0.000,44.109
+2015,8,MD,59647,Sunrun Inc.,Preliminary,1.066,0,0,0,1.066
+2015,8,ME,57313,SolarCity Corporation,Preliminary,0.000,1.026,0.000,0.000,1.030
+2015,8,MO,59579,Sunnova,Preliminary,0.015,0,0,0,0.015
+2015,8,NH,57313,SolarCity Corporation,Preliminary,0.178,0.000,0.000,0.000,0.180
+2015,8,NJ,57313,SolarCity Corporation,Preliminary,26.033,0.916,0.000,0.000,26.950
+2015,8,NJ,59139,SunEdison LLC,Preliminary,0.070,55.438,1.380,0.000,56.888
+2015,8,NJ,59579,Sunnova,Preliminary,24.137,0,0,0,24.137
+2015,8,NJ,59580,"SunPower Capital, LLC",Preliminary,5.230,0,0,0,5.230
+2015,8,NJ,59624,"Vivint Solar, Inc.",Preliminary,30.808,0.000,0.000,0.000,30.808
+2015,8,NJ,59647,Sunrun Inc.,Preliminary,19.496,0,0,0,19.496
+2015,8,NJ,59738,"SunPower Capital Services, LLC",Preliminary,1.988,0,0,0,1.988
+2015,8,NM,57313,SolarCity Corporation,Preliminary,0.015,3.113,0.000,0.000,3.125
+2015,8,NM,59579,Sunnova,Preliminary,0.921,0,0,0,0.921
+2015,8,NV,57313,SolarCity Corporation,Preliminary,21.748,0.699,0.000,0.000,22.450
+2015,8,NV,59139,SunEdison LLC,Preliminary,0.000,1.165,0.000,0.000,1.165
+2015,8,NV,59579,Sunnova,Preliminary,7.727,0,0,0,7.727
+2015,8,NV,59647,Sunrun Inc.,Preliminary,4.630,0,0,0,4.630
+2015,8,NY,57313,SolarCity Corporation,Preliminary,42.637,4.408,0.000,0.000,47.050
+2015,8,NY,59139,SunEdison LLC,Preliminary,0.000,5.929,0.000,0.000,5.929
+2015,8,NY,59579,Sunnova,Preliminary,1.221,0,0,0,1.221
+2015,8,NY,59580,"SunPower Capital, LLC",Preliminary,19.761,0,0,0,19.761
+2015,8,NY,59624,"Vivint Solar, Inc.",Preliminary,35.447,0.000,0.000,0.000,35.447
+2015,8,NY,59647,Sunrun Inc.,Preliminary,18.280,0,0,0,18.280
+2015,8,NY,59738,"SunPower Capital Services, LLC",Preliminary,0.222,0,0,0,0.222
+2015,8,OH,57313,SolarCity Corporation,Preliminary,0.000,5.532,0.000,0.000,5.530
+2015,8,OH,59139,SunEdison LLC,Preliminary,0.000,0.405,0.000,0.000,0.405
+2015,8,OR,57313,SolarCity Corporation,Preliminary,14.236,7.383,0.000,0.000,21.620
+2015,8,OR,59139,SunEdison LLC,Preliminary,0.000,2.668,0.000,0.000,2.668
+2015,8,OR,59647,Sunrun Inc.,Preliminary,0.029,0,0,0,0.029
+2015,8,PA,57313,SolarCity Corporation,Preliminary,0.636,0.081,0.000,0.000,0.720
+2015,8,PA,59139,SunEdison LLC,Preliminary,0.000,8.772,0.000,0.000,8.772
+2015,8,PA,59579,Sunnova,Preliminary,0.018,0,0,0,0.018
+2015,8,PA,59580,"SunPower Capital, LLC",Preliminary,0.523,0,0,0,0.523
+2015,8,PA,59647,Sunrun Inc.,Preliminary,0.583,0,0,0,0.583
+2015,8,PA,59738,"SunPower Capital Services, LLC",Preliminary,0.115,0,0,0,0.115
+2015,8,PR,57313,SolarCity Corporation,Preliminary,0.000,3.186,0.000,0.000,3.190
+2015,8,PR,59139,SunEdison LLC,Preliminary,0.000,5.627,0.000,0.000,5.627
+2015,8,PR,59579,Sunnova,Preliminary,7.296,0,0,0,7.296
+2015,8,TX,57313,SolarCity Corporation,Preliminary,9.043,11.794,0.000,0.000,20.830
+2015,8,TX,59139,SunEdison LLC,Preliminary,0.000,0.677,0.000,0.000,0.677
+2015,8,TX,59579,Sunnova,Preliminary,0.141,0,0,0,0.141
+2015,8,UT,57313,SolarCity Corporation,Preliminary,0.000,0.954,0.000,0.000,0.950
+2015,8,UT,59624,"Vivint Solar, Inc.",Preliminary,0.126,0.000,0.000,0.000,0.126
+2015,8,VA,57313,SolarCity Corporation,Preliminary,0.094,0.000,0.000,0.000,0.090
+2015,8,VT,59580,"SunPower Capital, LLC",Preliminary,1.707,0,0,0,1.707
+2015,8,VT,59738,"SunPower Capital Services, LLC",Preliminary,0.519,0,0,0,0.519
+2015,8,WA,57313,SolarCity Corporation,Preliminary,0.519,0.000,0.000,0.000,0.520
+2015,8,WI,59139,SunEdison LLC,Preliminary,0.000,0.477,0.000,0.000,0.477
+2015,9,AZ,57313,SolarCity Corporation,Preliminary,155.328,41.219,0.000,0.000,196.547
+2015,9,AZ,59139,SunEdison LLC,Preliminary,1.727,19.792,0,0,21.519
+2015,9,AZ,59579,Sunnova,Preliminary,7.847,0,0,0,7.847
+2015,9,AZ,59580,"SunPower Capital, LLC",Preliminary,34.384,0.000,0.000,0.000,34.384
+2015,9,AZ,59624,"Vivint Solar, Inc.",Preliminary,9.119,0.000,0.000,0.000,9.119
+2015,9,AZ,59647,Sunrun Inc.,Preliminary,10.984,0.000,0.000,0.000,10.984
+2015,9,AZ,59738,"SunPower Capital Services, LLC",Preliminary,10.072,0,0,0,10.072
+2015,9,CA,57313,SolarCity Corporation,Preliminary,367.208,99.030,0.000,0.000,466.238
+2015,9,CA,59139,SunEdison LLC,Preliminary,5.716,72.340,0,0,78.056
+2015,9,CA,59557,RGS Energy,Preliminary,0.293,0.000,0.000,0.000,0.293
+2015,9,CA,59579,Sunnova,Preliminary,34.632,0,0,0,34.632
+2015,9,CA,59580,"SunPower Capital, LLC",Preliminary,115.329,0.000,0.000,0.000,115.329
+2015,9,CA,59624,"Vivint Solar, Inc.",Preliminary,126.164,0.000,0.000,0.000,126.164
+2015,9,CA,59647,Sunrun Inc.,Preliminary,197.395,0.000,0.000,0.000,197.395
+2015,9,CA,59738,"SunPower Capital Services, LLC",Preliminary,25.485,0,0,0,25.485
+2015,9,CO,57313,SolarCity Corporation,Preliminary,48.370,10.398,0.000,0.000,58.768
+2015,9,CO,59139,SunEdison LLC,Preliminary,2.500,9.180,0.100,0,11.780
+2015,9,CO,59579,Sunnova,Preliminary,0.200,0,0,0,0.200
+2015,9,CO,59580,"SunPower Capital, LLC",Preliminary,3.167,0.000,0.000,0.000,3.167
+2015,9,CO,59647,Sunrun Inc.,Preliminary,7.862,0,0,0,7.862
+2015,9,CO,59738,"SunPower Capital Services, LLC",Preliminary,4.604,0,0,0,4.604
+2015,9,CT,57313,SolarCity Corporation,Preliminary,21.330,7.148,0.000,0.000,28.478
+2015,9,CT,59139,SunEdison LLC,Preliminary,0.026,3.866,0,0,3.892
+2015,9,CT,59579,Sunnova,Preliminary,3.476,0,0,0,3.476
+2015,9,CT,59624,"Vivint Solar, Inc.",Preliminary,0.186,0.000,0.000,0.000,0.186
+2015,9,CT,59647,Sunrun Inc.,Preliminary,2.816,0,0,0,2.816
+2015,9,DC,57313,SolarCity Corporation,Preliminary,0.802,0.000,0.000,0.000,0.802
+2015,9,DC,59647,Sunrun Inc.,Preliminary,0.030,0,0,0,0.030
+2015,9,DE,57313,SolarCity Corporation,Preliminary,4.801,0.413,0.000,0.000,5.214
+2015,9,DE,59647,Sunrun Inc.,Preliminary,2.312,0,0,0,2.312
+2015,9,FL,57313,SolarCity Corporation,Preliminary,1.602,0.000,0.000,0.000,1.602
+2015,9,FL,59139,SunEdison LLC,Preliminary,0,1.516,0,0,1.516
+2015,9,GA,59139,SunEdison LLC,Preliminary,0,6.227,0,0,6.227
+2015,9,GU,59579,Sunnova,Preliminary,3.007,0,0,0,3.007
+2015,9,HI,57313,SolarCity Corporation,Preliminary,11.354,18.614,0.000,0.000,29.968
+2015,9,HI,59139,SunEdison LLC,Preliminary,0,3.224,0,0,3.224
+2015,9,HI,59579,Sunnova,Preliminary,1.451,0,0,0,1.451
+2015,9,HI,59580,"SunPower Capital, LLC",Preliminary,3.075,0.000,0.000,0.000,3.075
+2015,9,HI,59624,"Vivint Solar, Inc.",Preliminary,24.176,0.000,0.000,0.000,24.176
+2015,9,HI,59647,Sunrun Inc.,Preliminary,16.189,0,0,0,16.189
+2015,9,HI,59738,"SunPower Capital Services, LLC",Preliminary,1.448,0,0,0,1.448
+2015,9,IN,59579,Sunnova,Preliminary,0.020,0,0,0,0.020
+2015,9,LA,59579,Sunnova,Preliminary,0.162,0,0,0,0.162
+2015,9,MA,57313,SolarCity Corporation,Preliminary,48.268,3.709,0.000,0.000,51.977
+2015,9,MA,59139,SunEdison LLC,Preliminary,0,14.583,0,0,14.583
+2015,9,MA,59579,Sunnova,Preliminary,4.151,0,0,0,4.151
+2015,9,MA,59580,"SunPower Capital, LLC",Preliminary,1.534,0.000,0.000,0.000,1.534
+2015,9,MA,59624,"Vivint Solar, Inc.",Preliminary,40.954,0.000,0.000,0.000,40.954
+2015,9,MA,59647,Sunrun Inc.,Preliminary,19.129,0,0,0,19.129
+2015,9,MA,59738,"SunPower Capital Services, LLC",Preliminary,0.422,0,0,0,0.422
+2015,9,MD,57313,SolarCity Corporation,Preliminary,50.085,7.479,0.000,0.000,57.564
+2015,9,MD,59139,SunEdison LLC,Preliminary,0,8.102,0,0,8.102
+2015,9,MD,59579,Sunnova,Preliminary,0.509,0,0,0,0.509
+2015,9,MD,59624,"Vivint Solar, Inc.",Preliminary,47.364,0.000,0.000,0.000,47.364
+2015,9,MD,59647,Sunrun Inc.,Preliminary,1.121,0,0,0,1.121
+2015,9,ME,57313,SolarCity Corporation,Preliminary,0.000,1.026,0.000,0.000,1.026
+2015,9,MO,59579,Sunnova,Preliminary,0.015,0,0,0,0.015
+2015,9,NH,57313,SolarCity Corporation,Preliminary,0.728,0.000,0.000,0.000,0.728
+2015,9,NH,59647,Sunrun Inc.,Preliminary,0.005,0,0,0,0.005
+2015,9,NJ,57313,SolarCity Corporation,Preliminary,27.489,1.020,0.000,0.000,28.509
+2015,9,NJ,59139,SunEdison LLC,Preliminary,0.075,55.438,1.380,0,56.893
+2015,9,NJ,59579,Sunnova,Preliminary,25.757,0,0,0,25.757
+2015,9,NJ,59580,"SunPower Capital, LLC",Preliminary,5.334,0.000,0.000,0.000,5.334
+2015,9,NJ,59624,"Vivint Solar, Inc.",Preliminary,33.210,0.000,0.000,0.000,33.210
+2015,9,NJ,59647,Sunrun Inc.,Preliminary,20.687,0,0,0,20.687
+2015,9,NJ,59738,"SunPower Capital Services, LLC",Preliminary,1.988,0,0,0,1.988
+2015,9,NM,57313,SolarCity Corporation,Preliminary,0.015,3.113,0.000,0.000,3.128
+2015,9,NM,59579,Sunnova,Preliminary,1.112,0,0,0,1.112
+2015,9,NV,57313,SolarCity Corporation,Preliminary,26.113,0.699,0.000,0.000,26.812
+2015,9,NV,59139,SunEdison LLC,Preliminary,0,1.165,0,0,1.165
+2015,9,NV,59579,Sunnova,Preliminary,8.324,0,0,0,8.324
+2015,9,NV,59647,Sunrun Inc.,Preliminary,6.528,0,0,0,6.528
+2015,9,NY,57313,SolarCity Corporation,Preliminary,45.545,4.408,0.000,0.000,49.953
+2015,9,NY,59139,SunEdison LLC,Preliminary,0.014,5.929,0,0,5.943
+2015,9,NY,59579,Sunnova,Preliminary,1.306,0,0,0,1.306
+2015,9,NY,59580,"SunPower Capital, LLC",Preliminary,21.167,0.000,0.000,0.000,21.167
+2015,9,NY,59624,"Vivint Solar, Inc.",Preliminary,39.300,0.000,0.000,0.000,39.300
+2015,9,NY,59647,Sunrun Inc.,Preliminary,18.757,0,0,0,18.757
+2015,9,NY,59738,"SunPower Capital Services, LLC",Preliminary,0.222,0,0,0,0.222
+2015,9,OH,57313,SolarCity Corporation,Preliminary,0.000,5.532,0.000,0.000,5.532
+2015,9,OH,59139,SunEdison LLC,Preliminary,0,0.405,0,0,0.405
+2015,9,OR,57313,SolarCity Corporation,Preliminary,14.635,7.383,0.000,0.000,22.018
+2015,9,OR,59139,SunEdison LLC,Preliminary,0.008,2.668,0,0,2.676
+2015,9,OR,59647,Sunrun Inc.,Preliminary,0.034,0,0,0,0.034
+2015,9,PA,57313,SolarCity Corporation,Preliminary,0.730,0.081,0.000,0.000,0.811
+2015,9,PA,59139,SunEdison LLC,Preliminary,0,8.772,0,0,8.772
+2015,9,PA,59579,Sunnova,Preliminary,0.029,0,0,0,0.029
+2015,9,PA,59580,"SunPower Capital, LLC",Preliminary,0.523,0.000,0.000,0.000,0.523
+2015,9,PA,59647,Sunrun Inc.,Preliminary,0.584,0,0,0,0.584
+2015,9,PA,59738,"SunPower Capital Services, LLC",Preliminary,0.115,0,0,0,0.115
+2015,9,PR,57313,SolarCity Corporation,Preliminary,0.000,3.186,0.000,0.000,3.186
+2015,9,PR,59139,SunEdison LLC,Preliminary,0,5.627,0,0,5.627
+2015,9,PR,59579,Sunnova,Preliminary,7.616,0,0,0,7.616
+2015,9,TX,57313,SolarCity Corporation,Preliminary,9.751,11.794,0.000,0.000,21.545
+2015,9,TX,59139,SunEdison LLC,Preliminary,0,0.677,0,0,0.677
+2015,9,TX,59579,Sunnova,Preliminary,0.146,0,0,0,0.146
+2015,9,UT,57313,SolarCity Corporation,Preliminary,0.000,0.954,0.000,0.000,0.954
+2015,9,UT,59624,"Vivint Solar, Inc.",Preliminary,0.441,0.000,0.000,0.000,0.441
+2015,9,VA,57313,SolarCity Corporation,Preliminary,0.107,0.000,0.000,0.000,0.107
+2015,9,VT,59580,"SunPower Capital, LLC",Preliminary,1.707,0.000,0.000,0.000,1.707
+2015,9,VT,59738,"SunPower Capital Services, LLC",Preliminary,0.519,0,0,0,0.519
+2015,9,WA,57313,SolarCity Corporation,Preliminary,0.519,0.000,0.000,0.000,0.519
+2015,9,WI,59139,SunEdison LLC,Preliminary,0,0.477,0,0,0.477
+2015,10,AZ,57313,SolarCity Corporation,Preliminary,160.243,41.219,0.000,0.000,201.462
+2015,10,AZ,59139,SunEdison LLC,Preliminary,2.101,19.792,0.000,0.000,21.893
+2015,10,AZ,59579,Sunnova,Preliminary,8.008,0,0,0,8.008
+2015,10,AZ,59580,"SunPower Capital, LLC",Preliminary,35.529,0.000,0.000,0.000,35.529
+2015,10,AZ,59624,"Vivint Solar, Inc.",Preliminary,10.044,0.000,0.000,0.000,10.044
+2015,10,AZ,59647,Sunrun Inc.,Preliminary,11.864,0,0,0,11.864
+2015,10,AZ,59738,"SunPower Capital Services, LLC",Preliminary,10.072,0,0,0,10.072
+2015,10,CA,57313,SolarCity Corporation,Preliminary,383.625,101.612,0.000,0.000,485.237
+2015,10,CA,59139,SunEdison LLC,Preliminary,6.801,75.907,0.000,0.000,82.708
+2015,10,CA,59557,RGS Energy,Preliminary,0.308,0.000,0.000,0.000,0.308
+2015,10,CA,59579,Sunnova,Preliminary,37.032,0,0,0,37.032
+2015,10,CA,59580,"SunPower Capital, LLC",Preliminary,118.714,0,0,0,118.714
+2015,10,CA,59624,"Vivint Solar, Inc.",Preliminary,131.755,0.000,0.000,0.000,131.755
+2015,10,CA,59647,Sunrun Inc.,Preliminary,202.554,0,0,0,202.554
+2015,10,CA,59738,"SunPower Capital Services, LLC",Preliminary,25.442,0,0,0,25.442
+2015,10,CO,57313,SolarCity Corporation,Preliminary,48.738,10.398,0.000,0.000,59.136
+2015,10,CO,59139,SunEdison LLC,Preliminary,2.500,9.183,0.100,0.000,11.783
+2015,10,CO,59579,Sunnova,Preliminary,0.209,0,0,0,0.209
+2015,10,CO,59580,"SunPower Capital, LLC",Preliminary,3.167,0,0,0,3.167
+2015,10,CO,59647,Sunrun Inc.,Preliminary,7.969,0,0,0,7.969
+2015,10,CO,59738,"SunPower Capital Services, LLC",Preliminary,4.604,0,0,0,4.604
+2015,10,CT,57313,SolarCity Corporation,Preliminary,22.987,7.479,0.000,0.000,30.466
+2015,10,CT,59139,SunEdison LLC,Preliminary,0.043,4.420,0.000,0.000,4.463
+2015,10,CT,59579,Sunnova,Preliminary,3.583,0,0,0,3.583
+2015,10,CT,59624,"Vivint Solar, Inc.",Preliminary,0.255,0.000,0.000,0.000,0.255
+2015,10,CT,59647,Sunrun Inc.,Preliminary,3.085,0,0,0,3.085
+2015,10,DC,57313,SolarCity Corporation,Preliminary,0.834,0.000,0.000,0.000,0.834
+2015,10,DC,59647,Sunrun Inc.,Preliminary,0.030,0,0,0,0.030
+2015,10,DE,57313,SolarCity Corporation,Preliminary,5.273,0.413,0.000,0.000,5.686
+2015,10,DE,59647,Sunrun Inc.,Preliminary,2.470,0,0,0,2.470
+2015,10,FL,57313,SolarCity Corporation,Preliminary,1.643,0.000,0.000,0.000,1.643
+2015,10,FL,59139,SunEdison LLC,Preliminary,0.000,1.520,0.000,0.000,1.520
+2015,10,GA,59139,SunEdison LLC,Preliminary,0.000,6.230,0.000,0.000,6.230
+2015,10,GU,59579,Sunnova,Preliminary,3.149,0,0,0,3.149
+2015,10,HI,57313,SolarCity Corporation,Preliminary,11.754,18.666,0.000,0.000,30.420
+2015,10,HI,59139,SunEdison LLC,Preliminary,0.000,3.224,0.000,0.000,3.224
+2015,10,HI,59579,Sunnova,Preliminary,1.444,0,0,0,1.444
+2015,10,HI,59580,"SunPower Capital, LLC",Preliminary,3.395,0,0,0,3.395
+2015,10,HI,59624,"Vivint Solar, Inc.",Preliminary,24.590,0.000,0.000,0.000,24.590
+2015,10,HI,59647,Sunrun Inc.,Preliminary,17.256,0,0,0,17.256
+2015,10,HI,59738,"SunPower Capital Services, LLC",Preliminary,1.448,0,0,0,1.448
+2015,10,IN,59579,Sunnova,Preliminary,0.020,0,0,0,0.020
+2015,10,LA,59579,Sunnova,Preliminary,0.172,0,0,0,0.172
+2015,10,MA,57313,SolarCity Corporation,Preliminary,52.509,3.709,0.000,0.000,56.218
+2015,10,MA,59139,SunEdison LLC,Preliminary,0.165,14.583,0.000,0.000,14.748
+2015,10,MA,59579,Sunnova,Preliminary,4.908,0,0,0,4.908
+2015,10,MA,59580,"SunPower Capital, LLC",Preliminary,1.534,0,0,0,1.534
+2015,10,MA,59624,"Vivint Solar, Inc.",Preliminary,43.755,0.000,0.000,0.000,43.755
+2015,10,MA,59647,Sunrun Inc.,Preliminary,20.572,0,0,0,20.572
+2015,10,MA,59738,"SunPower Capital Services, LLC",Preliminary,0.422,0,0,0,0.422
+2015,10,MD,57313,SolarCity Corporation,Preliminary,53.666,7.479,0.000,0.000,61.145
+2015,10,MD,59139,SunEdison LLC,Preliminary,0.000,8.102,0.000,0.000,8.102
+2015,10,MD,59579,Sunnova,Preliminary,0.761,0,0,0,0.761
+2015,10,MD,59624,"Vivint Solar, Inc.",Preliminary,50.480,0.000,0.000,0.000,50.480
+2015,10,MD,59647,Sunrun Inc.,Preliminary,1.251,0,0,0,1.251
+2015,10,ME,57313,SolarCity Corporation,Preliminary,0.000,1.026,0.000,0.000,1.026
+2015,10,MO,59579,Sunnova,Preliminary,0.016,0,0,0,0.016
+2015,10,NH,57313,SolarCity Corporation,Preliminary,0.962,0.000,0.000,0.000,0.962
+2015,10,NH,59647,Sunrun Inc.,Preliminary,0.033,0,0,0,0.033
+2015,10,NJ,57313,SolarCity Corporation,Preliminary,28.658,1.020,0.000,0.000,29.678
+2015,10,NJ,59139,SunEdison LLC,Preliminary,0.219,57.560,1.380,0.000,59.159
+2015,10,NJ,59579,Sunnova,Preliminary,27.921,0,0,0,27.921
+2015,10,NJ,59580,"SunPower Capital, LLC",Preliminary,5.347,0,0,0,5.347
+2015,10,NJ,59624,"Vivint Solar, Inc.",Preliminary,35.071,0.000,0.000,0.000,35.071
+2015,10,NJ,59647,Sunrun Inc.,Preliminary,22.029,0,0,0,22.029
+2015,10,NJ,59738,"SunPower Capital Services, LLC",Preliminary,1.988,0,0,0,1.988
+2015,10,NM,57313,SolarCity Corporation,Preliminary,0.015,3.113,0.000,0.000,3.128
+2015,10,NM,59579,Sunnova,Preliminary,1.296,0,0,0,1.296
+2015,10,NV,57313,SolarCity Corporation,Preliminary,28.960,0.699,0.000,0.000,29.659
+2015,10,NV,59139,SunEdison LLC,Preliminary,0.000,1.165,0.000,0.000,1.165
+2015,10,NV,59579,Sunnova,Preliminary,9.212,0,0,0,9.212
+2015,10,NV,59647,Sunrun Inc.,Preliminary,7.819,0,0,0,7.819
+2015,10,NY,57313,SolarCity Corporation,Preliminary,48.225,4.408,0.000,0.000,52.633
+2015,10,NY,59139,SunEdison LLC,Preliminary,0.060,5.929,0.000,0.000,5.989
+2015,10,NY,59579,Sunnova,Preliminary,1.324,0,0,0,1.324
+2015,10,NY,59580,"SunPower Capital, LLC",Preliminary,21.936,0,0,0,21.936
+2015,10,NY,59624,"Vivint Solar, Inc.",Preliminary,41.075,0.000,0.000,0.000,41.075
+2015,10,NY,59647,Sunrun Inc.,Preliminary,19.592,0,0,0,19.592
+2015,10,NY,59738,"SunPower Capital Services, LLC",Preliminary,0.222,0,0,0,0.222
+2015,10,OH,57313,SolarCity Corporation,Preliminary,0.000,5.532,0.000,0.000,5.532
+2015,10,OH,59139,SunEdison LLC,Preliminary,0.000,0.405,0.000,0.000,0.405
+2015,10,OR,57313,SolarCity Corporation,Preliminary,14.910,7.383,0.000,0.000,22.293
+2015,10,OR,59139,SunEdison LLC,Preliminary,0.008,2.250,0.000,0.000,2.258
+2015,10,OR,59647,Sunrun Inc.,Preliminary,0.034,0,0,0,0.034
+2015,10,PA,57313,SolarCity Corporation,Preliminary,0.877,0.081,0.000,0.000,0.958
+2015,10,PA,59139,SunEdison LLC,Preliminary,0.000,8.772,0.000,0.000,8.772
+2015,10,PA,59579,Sunnova,Preliminary,0.029,0,0,0,0.029
+2015,10,PA,59580,"SunPower Capital, LLC",Preliminary,0.523,0,0,0,0.523
+2015,10,PA,59647,Sunrun Inc.,Preliminary,0.584,0,0,0,0.584
+2015,10,PA,59738,"SunPower Capital Services, LLC",Preliminary,0.115,0,0,0,0.115
+2015,10,PR,57313,SolarCity Corporation,Preliminary,0.000,3.186,0.000,0.000,3.186
+2015,10,PR,59139,SunEdison LLC,Preliminary,0.000,5.627,0.000,0.000,5.627
+2015,10,PR,59579,Sunnova,Preliminary,8.251,0,0,0,8.251
+2015,10,TX,57313,SolarCity Corporation,Preliminary,10.670,11.794,0.000,0.000,22.464
+2015,10,TX,59139,SunEdison LLC,Preliminary,0.000,0.677,0.000,0.000,0.677
+2015,10,TX,59579,Sunnova,Preliminary,0.157,0,0,0,0.157
+2015,10,UT,57313,SolarCity Corporation,Preliminary,0.000,0.954,0.000,0.000,0.954
+2015,10,UT,59624,"Vivint Solar, Inc.",Preliminary,0.546,0.000,0.000,0.000,0.546
+2015,10,VA,57313,SolarCity Corporation,Preliminary,0.123,0.000,0.000,0.000,0.123
+2015,10,VT,59580,"SunPower Capital, LLC",Preliminary,1.707,0,0,0,1.707
+2015,10,VT,59738,"SunPower Capital Services, LLC",Preliminary,0.519,0,0,0,0.519
+2015,10,WA,57313,SolarCity Corporation,Preliminary,0.519,0.000,0.000,0.000,0.519
+2015,10,WI,59139,SunEdison LLC,Preliminary,0.000,0.477,0.000,0.000,0.477

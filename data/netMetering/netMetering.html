@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<div id="chartContainer">
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v1.1.3.min.js"></script>
+  <script type="text/javascript">
+      var svg = dimple.newSvg("#chartContainer", 800, 400);
+
+      d3.csv("netmetering.csv", draw);
+
+      function draw(data) {
+          var chart = new dimple.chart(svg, data);
+          chart.setBounds(70,50,650,330);
+
+          // Add your x axis 
+          var x = chart.addCategoryAxis("x", "Year");
+          // First y axis is the residential capacity installed in MW
+          var y1 = chart.addMeasureAxis("y", "Residential_Capacity_Installed_MW");
+          y1.tickFormat = ',.1f';
+          // Second is the Electricity sold back to the grid   
+          var y2 = chart.addMeasureAxis("y", "Residential_Electricity_Sold_Back_MWh");
+          y2.tickFormat = ',.1f';
+
+          // Plot the bars first - the order of series determines their dom position
+          // from back to front, this means bars are at the back.  Any string
+          // not in the data is just used to apply a label which can be used for colouring
+          // as it is here and will also appear in tool tips
+          var bars = chart.addSeries("Residential Capacity Installed MW", dimple.plot.bar, [x,y1]);
+          // Use a simple line by metric for the other measures
+          var lines = chart.addSeries("Residential Electricity Sold Back MWh", dimple.plot.line, [x,y2]);
+
+          // Do a bit of styling to make it look nicer
+          lines.lineMarkers = true;
+          bars.barGap = 0.5;
+          // Colour the bars manually so they don't overwhelm the lines
+          chart.assignColor("Residential Capacity Installed MW", "green", "green", 0.25);
+          chart.assignColor("Residential Electricity Sold Back MWh", "red", "red", 0.5);
+
+          x.dateParseFormat = "%Y";
+          x.addOrderRule("year");
+
+          // Here's how you add a legend for just one series.  Excluding the last parameter
+          // will include every series or an array of series can be passed to select more than
+          // one
+          chart.addLegend(60, 5, 680, 10, "right", lines);
+          chart.addLegend(55, 25, 680, 10, "right", bars);
+  
+
+          chart.draw();
+
+        
+      }
+      
+
+  </script>
+</div>
+  
+</body>
+
+</html>

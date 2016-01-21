@@ -1,0 +1,17 @@
+<html>
+<div id="chartContainer">
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.1.6.min.js"></script>
+  <script type="text/javascript">
+    var svg = dimple.newSvg("#chartContainer", 800, 400);
+    d3.csv("solarStates.csv", function (data) {
+      var myChart = new dimple.chart(svg, data);
+      myChart.setBounds(75, 30, 700, 330)
+      myChart.addMeasureAxis("x", "Distributed Solar PV installed capacity MW");
+      var y = myChart.addCategoryAxis("y", "State");
+      myChart.addSeries(null, dimple.plot.bar);
+      myChart.draw();
+    });
+  </script>
+</div>
+</html>
