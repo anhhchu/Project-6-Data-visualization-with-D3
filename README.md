@@ -1,5 +1,5 @@
 # Data-visualization-with-D3
-<<<<<<< HEAD
+
 ##Summary:<br> 
 The project aims to give an overview of SolarCity's business milestones and a glimpse of the solar industry from the falling of solar PV price to raise of third-party-owned business model.<br>
 The indexFinal.html stores the storyline. It pulls charts from separated html files such as barChartFinal, barChartUtilityFinal, StockChartFinal and withNoteFinal in "data" folder. 
@@ -25,11 +25,11 @@ In the period of exciting solar activity (2010-2015), number of residential cust
 The final 3 charts show how SolarCity outperforms some of its competitors. The time series line chart show the increase in MW installation of SolarCity in comparation with other TPOs.<br>
 The Bar Charts compares SolarCity installation accomplishment with other utility competitors and shows its ranking. The small "sort values" option in the left corner of the chart helps sort the chart in descending order. Color SolarCity bar with green and add the "sort values" option just aims to increase visualiation of the chart.<br> 
 
->>>>>>> origin/master
 ##Feedback:<br> 
 Feedback for Bar Chart: the chart should be sorted to show companies' ranking (change from barChart1.html to barChartFinal.html).<br>
 Feedback for StockChart: mousemove & tooltips are included because a reader wants to have more interaction with the chart as well as look at the real figure of the stock price (change from stockChart1.html to stockChartFinal.html) <br>
 Feedback for index file: after putting the chart together, I was suggested to accompany the visualization with some stories to embed the intended messages. <br>
+Feedback for Competitor chart (between Solar City and TPO): legends should be added to show the names of TPOs. An interactive legend is also provided for reader to interact with each TPO individually. 
 Feedback from reviewer: After reviewing index2.html file, reviewer feedbacks that there are no findings with the data as the first SolarCity stock chart with note only provides facts about the company, and the other 3 charts don't have any specific information either. Therefore, in indexFinal.html, I have included 3 more charts to show the correlation between falling PV price and escalating PV installation, and how  SolarCity has outgrew some of its competitors. The stockchart of FirstSolar remains to tell part of the story of the industry, although SolarCity's stock price was removed as comparing these 2 stocks are not the main purpose of the chart.<br>
 
 ##Resources: 
